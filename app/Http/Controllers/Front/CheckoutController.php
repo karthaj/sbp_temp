@@ -464,7 +464,7 @@ class CheckoutController extends Controller
     }
 
 
-    public function verifyOtp($cart, $request)
+    public function verifyOtp(Cart $cart, Request $request)
     {
         var_dump($cart);
         var_dump($request);
