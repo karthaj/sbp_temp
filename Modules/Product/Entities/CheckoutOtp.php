@@ -3,7 +3,8 @@
 namespace Modules\Product\Entities;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Carbon;
+use Carbon\Carbon;
+
 
 class CheckoutOtp extends Model
 {
