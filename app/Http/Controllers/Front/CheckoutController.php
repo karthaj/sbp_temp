@@ -38,7 +38,8 @@ use Shopbox\Traits\Discountable;
 use Shopbox\Traits\Consignment;
 use Illuminate\Support\Facades\Auth;
 use Shopbox\Transformers\Checkout\PaymentTransformer;
-
+use Illuminate\Support\Facades\Mail;
+use Modules\Order\Emails\OtpEmail;
 
 
 class CheckoutController extends Controller
@@ -165,7 +166,7 @@ class CheckoutController extends Controller
         $cart->invoice_address()->associate($billing_address);
         $cart->delivery_address()->associate($shipping_address);
         $cart->save(); 
-        
+
         // fire and forget
         $this->sendOTP($cart);  
 
