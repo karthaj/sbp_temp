@@ -464,9 +464,11 @@ class CheckoutController extends Controller
     }
 
 
-    public function verifyOtp($cart, $inputOtp)
+    public function verifyOtp($cart, $request)
     {
-        var_dump($cart->id);
+        var_dump($cart);
+        var_dump($request);
+
         $otp = CheckoutOtp::where('cart_id', $cart->id)->latest()->first();
 
         if (!$otp) {
