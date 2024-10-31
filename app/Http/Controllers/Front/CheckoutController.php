@@ -39,7 +39,7 @@ use Shopbox\Traits\Consignment;
 use Illuminate\Support\Facades\Auth;
 use Shopbox\Transformers\Checkout\PaymentTransformer;
 use Illuminate\Support\Facades\Mail;
-use Modules\Order\Emails\OtpEmail;
+use Modules\Order\Emails\CheckoutOtpEmail;
 
 
 class CheckoutController extends Controller
