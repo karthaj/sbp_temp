@@ -179,8 +179,7 @@ class CheckoutController extends Controller
 
 
     protected function sendOTP(Cart $cart) {
-        $otp = new CheckoutOtp(); 
-        $otp->createOrUpdateOtp($cart);  
+        $otp = CheckoutOtp::createOrUpdateOtp($cart);  
         // Send OTP to the customer's email
         Mail::to($cart->customer->customerEmail)->queue(new CheckoutOtpEmail($otp->otp_code, $cart->customer->customerEmail, $cart->store->store_name));
     } 
