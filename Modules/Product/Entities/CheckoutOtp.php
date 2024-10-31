@@ -38,7 +38,7 @@ class CheckoutOtp extends Model
 
             // Set initial retry count and timestamp in the session
         session()->put("otp_retry_count_{$cartId}", 0);
-        session()->put("otp_timestamp_{$cartId}", now());
+        session()->put("otp_timestamp_{$cartId}",  Carbon::now() );
 
         return self::updateOrCreate(
             ['cart_id' => $cartId],
