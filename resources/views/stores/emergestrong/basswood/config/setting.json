@@ -1,0 +1,437 @@
+{
+    "name": "Basswood",
+    "version": "2.0.0",
+    "meta": {
+        "author_name": "Aidantz AppMedia",
+        "author_url": "https:\/\/www.aidantz.com",
+        "author_email": "support@aidantz.com",
+        "description": "A clean and minimal theme, perfect for showcasing products",
+        "desktop_screenshot": "desktop.jpg",
+        "mobile_screenshot": "",
+        "features": [
+            "Fully responsive",
+            "Social media icons",
+            "Product quickview",
+            "3 header styles",
+            "customizable sections",
+            "Free theme updates"
+        ]
+    },
+    "current": {
+        "box_view": true,
+        "header_style": 1,
+        "header_color": "#7a7a7a",
+        "header_bg_color": "#fff",
+        "footer_bg_color": "#fff",
+        "footer_color": "#7a7a7a",
+        "accent_color": "#24bddf",
+        "body_color": "#fff",
+        "body_font": "Google_Raleway_400_sans",
+        "promo_title_font": "Google_Roboto+Slab_700_serif",
+        "promo_subtitle_font": "Google_Roboto+Slab_700_serif",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_google_plus_link": "",
+        "custom_css": "",
+        "show_multiple_currencies": true,
+        "supported_currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header_style_1": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": "(00) 123 4567",
+                    "email": "youremail@domain.com"
+                }
+            },
+            "header_style_2": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu"
+                }
+            },
+            "header_style_3": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": "(00) 123 4567",
+                    "email": "youremail@domain.com",
+                    "message": "Welcome you to Basswood store!"
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "text_color": "#252525",
+                    "button_bg_color": "#fff"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "title": "Image Slide",
+                            "text_1": "Lorem ipsum",
+                            "text_2": "Lorem ipsum",
+                            "text_3": "Lorem ipsum",
+                            "button_label": "Button",
+                            "button_link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "text_1": "Lorem ipsum",
+                            "title": "Image Slide",
+                            "text_2": "Lorem ipsum",
+                            "text_3": "Lorem ipsum",
+                            "button_label": "Button",
+                            "button_link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "contact": {
+                "type": "contact",
+                "settings": {
+                    "title": "Store information",
+                    "address": "Store address here",
+                    "phone": "(xxx) xxx xxxx",
+                    "email": "demo@basswood.com"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "style": 1,
+                    "logo": "",
+                    "menu": ""
+                }
+            },
+            "496156399292": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "style": "2",
+                    "title": "SHELTER PROGRAMMES",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": "beads-2-business-1-month"
+                        }
+                    },
+                    "product-3": {
+                        "type": "product",
+                        "settings": {
+                            "product": "beads-2-business-1-year"
+                        }
+                    },
+                    "product-4": {
+                        "type": "product",
+                        "settings": {
+                            "product": "mentoring-1-month"
+                        }
+                    },
+                    "product-5": {
+                        "type": "product",
+                        "settings": {
+                            "product": "mentoring-1-year"
+                        }
+                    },
+                    "product-6": {
+                        "type": "product",
+                        "settings": {
+                            "product": "life-skills-1-month"
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-3",
+                    "product-4",
+                    "product-5",
+                    "product-6"
+                ]
+            },
+            "9051901287": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "style": "2",
+                    "title": "SHELTER PROGRAMMES",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": "beads-2-business-1-month"
+                        }
+                    },
+                    "product-3": {
+                        "type": "product",
+                        "settings": {
+                            "product": "beads-2-business-1-year"
+                        }
+                    },
+                    "product-4": {
+                        "type": "product",
+                        "settings": {
+                            "product": "mentoring-1-month"
+                        }
+                    },
+                    "product-5": {
+                        "type": "product",
+                        "settings": {
+                            "product": "mentoring-1-year"
+                        }
+                    },
+                    "product-6": {
+                        "type": "product",
+                        "settings": {
+                            "product": "life-skills-1-month"
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-3",
+                    "product-4",
+                    "product-5",
+                    "product-6"
+                ]
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "496156399292",
+            "9051901287"
+        ]
+    },
+    "default": {
+       "box_view": false,
+        "header_style": 1,
+        "header_color": "#7a7a7a",
+        "header_bg_color": "#fff",
+        "footer_bg_color": "#fff",
+        "footer_color": "#7a7a7a",
+        "accent_color": "#24bddf",
+        "body_color": "#fff",
+        "body_font": "Google_Raleway_400_sans",
+        "promo_title_font": "Google_Roboto+Slab_700_serif",
+        "promo_subtitle_font": "Google_Roboto+Slab_700_serif",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_google_plus_link": "",
+        "custom_css": "",
+        "show_multiple_currencies": true,
+        "supported_currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header_style_1": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": "(00) 123 4567",
+                    "email": "youremail@domain.com"
+                }
+            },
+            "header_style_2": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu"
+                }
+            },
+            "header_style_3": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": "(00) 123 4567",
+                    "email": "youremail@domain.com",
+                    "message": "Welcome you to Basswood store!"
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "slide_show_speed": 5000,
+                    "text_color": "#252525",
+                    "button_bg_color": "#fff"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "title": "Image Slide",
+                            "text_1": "Lorem ipsum",
+                            "text_2": "Lorem ipsum",
+                            "text_3": "Lorem ipsum",
+                            "button_label": "Button",
+                            "button_link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "text_1": "Lorem ipsum",
+                            "title": "Image Slide",
+                            "text_2": "Lorem ipsum",
+                            "text_3": "Lorem ipsum",
+                            "button_label": "Button",
+                            "button_link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "banner": {
+                "type": "banner",
+                "disabled": false,
+                "settings": {
+                    "banner_img_1": "",
+                    "banner_link_1": "",
+                    "banner_img_2": "",
+                    "banner_link_2": "",
+                    "banner_img_3": "",
+                    "banner_link_3": ""
+                }
+            },
+            "promo_banner": {
+                "type": "promo-banner",
+                "disabled": false,
+                "settings": {
+                    "image": "",
+                    "logo": "",
+                    "title": "promo banner",
+                    "subtite": "Lorem ipsum dolor",
+                    "button_color": "#fff",
+                    "button_label": "Button",
+                    "button_link": ""
+                }
+            },
+            "feature-list": {
+                "type": "feature-list",
+                "disabled": false,
+                "settings": {
+                    "style": "grid",
+                    "feature_img_1": "",
+                    "feature_title_1": "Free Shipping",
+                    "feature_subtitle_1": "Free shipping on all order over $99.00",
+                    "feature_img_2": "",
+                    "feature_title_2": "Online Support 24\/7",
+                    "feature_subtitle_2": "We are here to make your day. Let\u2019s talk!",
+                    "feature_img_3": "",
+                    "feature_title_3": "Money Back Guarantee!",
+                    "feature_subtitle_3": "We free 30 days 100% money back & return"
+                }
+            },
+            "instagram": {
+                "type": "instagram",
+                "disabled": false,
+                "settings": {
+                    "style": 2,
+                    "username": "username",
+                    "access_token": "",
+                    "image_limit": 6
+                }
+            },
+            "blog_post": {
+                "type": "blog-post",
+                "disabled": false,
+                "settings": {
+                    "title": "Blog posts",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum provident, odio corporis laborum hic odit.",
+                    "post_limit": 3,
+                    "image": ""
+                }
+            },
+            "product_grid": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "title": "Featured Products",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "Custom HTML",
+                    "code": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>"
+                }
+            },
+            "contact": {
+                "type": "contact",
+                "settings": {
+                    "title": "Store information",
+                    "address": "Store address here",
+                    "phone": "(xxx) xxx xxxx",
+                    "email": "demo@basswood.com"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "style": 1,
+                    "logo": "",
+                    "menu": ""
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "banner",
+            "product_grid",
+            "promo_banner",
+            "feature-list",
+            "instagram",
+            "blog_post"
+        ]
+    }
+}

@@ -1,0 +1,299 @@
+/*================ Variables ================*/
+
+$accent-color: $accent_color;
+$body-color: $body_color;
+$body-bg-color: $body_bg_color;
+$header-color: $header_color;
+$header-bg-color: $header_color_bg;
+$header-bar-color: $header_bar_color;
+$h1-font: typography($h1_font);
+$h2-font: typography($h2_font);
+$h3-font: typography($h3_font);
+$h4-font: typography($h4_font);
+$h5-font: typography($h5_font);
+$h6-font: typography($h6_font);
+$h1-size: $h1_size;
+$h2-size: $h2_size;
+$h3-size: $h3_size;
+$h4-size: $h4_size;
+$h5-size: $h5_size;
+$h6-size: $h6_size;
+$body-font: typography($body_font);
+$body-font-size: $body_font_size;
+$footer-bg-color: $footer_bg_color;
+$footer-title-color: $footer_title_color;
+$footer-text-color: $footer_text_color;
+$button-bg-color: $button_bg_color;
+$button-color: $button_color;
+
+button {
+  background-color: $button-bg-color !important;
+  color: $button-color !important;
+}
+.category-link-overlay {
+  color: $accent-color !important;
+}
+h1 {
+  font-family: str-slice($h1-font, 1, str-index($h1-font, '|') - 1);
+  font-weight: str-slice($h1-font, str-index($h1-font, '|') + 1);
+	font-size: $h1-size;
+}
+h2 {
+  font-family: str-slice($h2-font, 1, str-index($h2-font, '|') - 1);
+  font-weight: str-slice($h2-font, str-index($h2-font, '|') + 1);
+	font-size: $h2-size;
+}
+h3 {
+  font-family: str-slice($h3-font, 1, str-index($h3-font, '|') - 1);
+  font-weight: str-slice($h3-font, str-index($h3-font, '|') + 1);
+	font-size: $h3-size;
+}
+h4 {
+  font-family: str-slice($h4-font, 1, str-index($h4-font, '|') - 1);
+  font-weight: str-slice($h4-font, str-index($h4-font, '|') + 1);
+	font-size: $h4-size;
+}
+h5 {
+  font-family: str-slice($h5-font, 1, str-index($h5-font, '|') - 1);
+  font-weight: str-slice($h5-font, str-index($h5-font, '|') + 1);
+	font-size: $h5-size;
+}
+h6 {
+  font-family: str-slice($h6-font, 1, str-index($h6-font, '|') - 1);
+  font-weight: str-slice($h6-font, str-index($h6-font, '|') + 1);
+	font-size: $h6-size;
+}
+body {
+	font-family: str-slice($body-font, 1, str-index($body-font, '|') - 1);
+  font-weight: str-slice($body-font, str-index($body-font, '|') + 1);
+	font-size: $body-font-size;
+	color: $body-color;
+  background-color: $body-bg-color;
+}
+.b-accent_color {
+  color: $accent-color; 
+}
+.b-header_bg {
+  background-color: $accent-color; 
+}
+.b-header_main {
+  background-color: $header-bg-color;       
+}
+.mega-menu {
+  background-color: lighten($accent-color, 45%); 
+}
+.mega-menu .dropdown-inner a {
+  color: $header-color;
+}
+.b-header_right .b-wishlist_icon span {
+    background-color: $accent-color;
+}
+.btn.btn-bg {
+  background-color: $accent-color; 
+}
+.b-accent_color {
+  color: $accent-color; 
+}
+.b-header_nav nav ul li a:hover {
+  color: $accent-color; 
+}
+.b-section_title p a {
+  color: $accent-color;
+}
+.b-section_title h4 {
+  color: $accent-color;
+}
+.b-blog_grid .b-blog_single_header .b-post_categories .b-post_categorie_list {
+   background-color: $accent-color;
+}
+.b-blog_grid .b-author_info .b-author_name a {
+    color: $accent-color;
+}
+.b-blog_grid .b-blog_single_info h3.b-entry_title a:hover {
+    color: $accent-color; 
+}
+.b-sidebar_widget .b-sidenav ul li a:hover {
+    color: $accent-color; 
+}
+.btn-full {
+  background-color: $accent-color;
+  border-color: $accent-color; 
+}
+.b-blog_navigation a:hover {
+      color: $accent-color; 
+}
+.b-product_grid_action .b-wish_added.b-add_to_whish::before {
+    color: $accent-color; 
+}
+.b-product_hover_03 .fa {
+  color: $accent-color; 
+}
+.b-product_hover_05 .fa {
+  color: $accent-color; 
+}
+.b-product_hover_06 .fa {
+  color: $accent-color; 
+}
+.b-grid_button.b-active, .b-grid_button:hover, .b-list_button.b-active, .b-list_button:hover {
+    background: $accent-color;
+}
+.b-product_list_listing .b-product_list_single .fa {
+  color: $accent-color; 
+}
+.b-product_list_listing .b-list_action:hover {
+    color: $accent-color; 
+}
+.b-product_single_summary .b-price span {
+  color: $accent-color; 
+}
+.b-product_single_summary .b-quantity .b-minus:hover, .b-product_single_summary .b-quantity .b-plus:hover {
+     background-color: $accent-color;
+}
+.b-product_single_summary .b-product_single_option li a:hover {
+    color: $accent-color; 
+}
+.b-product_single_summary .b-product_single_option li a:hover i {
+    color: $accent-color; 
+}
+.b-product_tabs .b-rating_area a:hover i, .b-product_tabs .b-rating_area a.b-active i {
+    color: $accent-color; 
+}
+.b-review_listing .b-review_single .b-review_header .fa {
+    color: $accent-color; 
+}
+.b-product-design-sticky .b-add-to-wishlist a:hover {
+    color: $accent-color; 
+}
+.b-product_tabs .tab-content ul li::before {
+    color: $accent-color;
+}
+.b-header_dark .b-main_menu > ul > li > a:hover {
+    color: $accent-color; 
+}
+.b-main_menu > ul > li > a:hover {
+    color: $accent-color; 
+}
+.b-menu_content_in .d-block span {
+    color: $accent-color; 
+}
+.b-menu_content_in .d-block:hover {
+    color: $accent-color; 
+}
+.mobile-menu-open .b-main_menu-wrapper .dropdown-inner ul > li > a:hover {
+    color: $accent-color;
+}
+.b-minimal_banner .b-banner_inner a:hover {
+    color: $accent-color; 
+}
+.b-cart_empty a {
+    background-color: $accent-color;
+}
+.b-mini_cart .b-mini_cart_items .item-price span {
+    color: $accent-color; 
+}
+.b-mini_cart .main-color-text {
+    color: $accent-color; 
+}
+.b-not_found .b-page_header h1 {
+      color: $accent-color;
+}
+.b-not_found .b-searchform .btn {
+    background-color: $accent-color;
+}
+.b-promo_popup h1 b {
+    color: $accent-color; 
+}
+.b-auth_section .b-lost_password:hover {
+    color: $accent-color; 
+}
+.b-auth_text .btn:hover {
+    background-color: $accent-color; 
+}
+.b-wishlist_table .b-wish_product i:hover {
+    color: $accent-color; 
+}
+.b-wishlist_table .b-wish_product a:hover {
+    color: $accent-color; 
+}
+.b-shop_breadcrumb a:hover {
+    color: $accent-color; 
+}
+.b-filters_inner_area ul li a:hover {
+    color: $accent-color;
+}
+.b-shop_option ul li span {
+    color: $accent-color; 
+}
+.b-sidebar .b-tag_list li a:hover {
+      background-color: $accent-color;
+}
+.b-sidebar ul.b-rated_product li .fa {
+    color: $accent-color; 
+}
+.b-shopping_blocks .b-shopping_block_in a {
+    border-bottom: 1px solid $accent-color;
+}
+.b-shopping_blocks .b-shopping_block_in a:hover {
+    color: $accent-color; 
+}
+.b-faq_tabs > ul li span.b-active_faq {
+    color: $accent-color; 
+}
+.b-faq_tabs > ul li span.b-active_faq::after {
+    background-color: $accent-color;
+}
+.b-scrollToTop:hover {
+    background-color: $accent-color;
+    border-color: $accent-color; 
+}
+.b-product_single_summary .b-product_single_action .btn {
+    background-color: #000;
+    color: #fff;
+}
+.b-header_right .b-search_icon a, .b-header_right .b-wishlist_icon a, .b-header_right .b-cart_basket a {
+    color: $header-color;
+}
+.b-main_menu > ul > li > a {
+    color: $header-color;
+}
+.b-header_right .b-header_links ul li a {
+    color: $header-color;
+}
+.b-top_bar_left {
+  color: $header-bar-color;
+}
+.flex-control-nav {
+    bottom: 0;
+    z-index: 10;
+}
+.flex-control-paging li a {
+  background: $body-bg-color;
+}
+.flex-control-paging li a.flex-active {
+  background: $accent-color;
+}
+.flex-control-paging li a:hover {
+  background: $accent-color;
+}
+.b-footer_container {
+    background-color: $footer-bg-color;
+}
+.b-footer_block_title {
+  color: $footer-title-color;
+}
+.b-footer_block_title::before {
+    background-color: transparentize($footer-title-color, 0.2);
+}
+.b-footer_menu li a {
+    color: transparentize($footer-text-color, 0.4);
+}
+.b-footer_container .b-footer_block_in p {
+    color: transparentize($footer-text-color, 0.4);
+}
+.b-footer_container .b-contact_info {
+    color: transparentize($footer-text-color, 0.4);
+}
+.d-footer_bar {
+    border-top: 1px solid transparentize($footer-text-color, 0.9);
+    color: transparentize($footer-text-color, 0.4);
+}

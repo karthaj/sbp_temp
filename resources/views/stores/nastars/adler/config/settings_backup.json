@@ -1,0 +1,417 @@
+{
+    "name": "Adler",
+    "version": "2.5.0",
+    "meta": {
+        "author_name": "Aidantz AppMedia",
+        "author_url": "#",
+        "author_email": "support@aidantz.com",
+        "description": "Ideal for a wide range of businesses and brands, this design is fully responsive, simple, and ready for you to add your branding, logo, and products.",
+        "desktop_screenshot": "desktop.jpg",
+        "mobile_screenshot": "",
+        "features": [
+            "Fully responsive",
+            "Social media icons",
+            "Product quickview",
+            "3 header styles",
+            "customizable sections",
+            "Free theme updates"
+        ]
+    },
+    "current": {
+        "header_color": "#665D5D",
+        "header_color_bg": "#FFFFFF",
+        "accent_color": "#0F7EBF",
+        "body_color": "#665D5D",
+        "button_bg_color": "#0F7EBF",
+        "button_color": "#fff",
+        "body_bg_color": "#fff",
+        "header_bar_color": "#fff",
+        "footer_bg_color": "#FFFFFF",
+        "footer_title_color": "#665D5D",
+        "footer_text_color": "#665D5D",
+        "h1_font": "Google_Karla_400_sans",
+        "h2_font": "Google_Karla_400_sans",
+        "h3_font": "Google_Karla_400_sans",
+        "h4_font": "Google_Karla_400_sans",
+        "h5_font": "Google_Karla_400_sans",
+        "h6_font": "Google_Karla_400_sans",
+        "h1_size": "40px",
+        "h2_size": "40px",
+        "h3_size": "40px",
+        "h4_size": "40px",
+        "h5_size": "40px",
+        "h6_size": "40px",
+        "body_font": "Google_Karla_400_sans",
+        "body_font_size": "16px",
+        "social_twitter_link": "",
+        "social_facebook_link": "https:\/\/www.facebook.com\/www.nastars.lk\/",
+        "social_pinterest_link": "",
+        "social_instagram_link": "https:\/\/www.instagram.com\/nastarslk\/?hl=en",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": ".b-footer_container .b-social-icons li a {\n  color: #0F7EBF; }\nbutton {\n background-color: #0F7EBF;\n}",
+        "enable_multicurrency": false,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "left",
+                    "logo": "logoflat.png",
+                    "header_main_menu": "blank-menu",
+                    "header_secondary_menu": "main-menu",
+                    "show_top_bar": true,
+                    "top_bar_text": "Call us on 2 573764 for any inquiries",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": true,
+                "settings": {
+                    "title": "best selling products",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "featured_categories": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "",
+                    "title": "featured categories",
+                    "ft_cat_text": "",
+                    "ft_cat_sub_heading_color": "#9b9b9",
+                    "ft_cat_text_color": "#000000",
+                    "ft_cat_1": "gaming",
+                    "ft_cat_1_img": "featcatgaming.jpg",
+                    "ft_cat_2": "inno64",
+                    "ft_cat_2_img": "featcatinno64.jpg",
+                    "ft_cat_3": "cameras",
+                    "ft_cat_3_img": "featcatactioncam.jpg",
+                    "ft_cat_4": "audio",
+                    "ft_cat_4_img": "featcatheadphones.jpg",
+                    "ft_cat_show_category_label": true,
+                    "title": "Featured categories"
+                }
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": true,
+                "settings": {
+					"title": "Custom HTML",
+                    "code": "<h2>Lorem<\/h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>",
+                    "enable_full_width": false
+                }
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+                    "title": "Image with text",
+                    "image": "imageindy.jpg",
+                    "layout_grid": "half_right_text",
+                    "text": "<p>Indy\u2019s sound profile is tuned to deliver crisp highs and warm lows without distortion.<br><br>Indy boasts an IP55 protection rating \u2013 with sweat, water, and dust resistance \u2013 so you can wear it confidently wherever you go.<br><br>Touch the skull to control. You can activate your assistant, change songs, adjust volume, and manage calls just by tapping your earbuds.<br><br>Only Skull Candy headphones are custom-tuned to deliver Music you can feel. From the lyrics in your soul to the bass in your bones.<\/p>"
+                }
+            },
+            "newsletter": {
+                "type": "newsletter",
+                "disabled": true,
+                "settings": {
+                    "newsletter_bg": "",
+                    "newsletter_sub_heading": "Subheading goes here",
+                    "newsletter_heading": "Newsletter Heading",
+                    "title": "Newsletter",
+                    "newsletter_text": "Hey you, sign up it only takes a second to be the first to find out about our latest news and promotions\u2026",
+                    "newsletter_form_action": "https:\/\/aidantz.us16.list-manage.com\/subscribe\/post?u=65544a59a0e0952217644967b&amp;id=0d45eafcc3"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "white.png",
+                    "footer_menu_title_1": "store policy",
+                    "footer_menu_1": "store-policy",
+                    "footer_menu_title_2": "",
+                    "footer_menu_2": "",
+                    "footer_menu_title_3": "",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "Store Details",
+                    "footer_menu_text": "Trusted Electronics Store for over 40 Years.",
+                    "footer_address": "51, Liberty Plaza, Col - 3",
+                    "footer_phone": "0112 573764",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            },
+            "49915046422": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+                    "title": "the new nintendo switch lite",
+                    "image": "imageswitchlite.jpg",
+                    "layout_grid": "one_third_right_image",
+                    "text": "<p>The Nintendo Switch Lite is designed specifically for handhel play - so you can jump into your favorite games wherever you happen to be.<\/p><p>With its light, sleek design, this system is ready to hit the road whenever you are.<br><\/p>"
+                }
+            },
+            "278451540358": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": 5000,
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "slideshow-0": {
+                        "type": "image",
+                        "settings": {
+                            "image": "nfshbanneradler.jpg",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-1": {
+                        "type": "image",
+                        "settings": {
+                            "image": "inno64banneradler.jpg",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-2": {
+                        "type": "image",
+                        "settings": {
+                            "image": "deathstrandingbanneradler.jpg",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-3": {
+                        "type": "image",
+                        "settings": {
+                            "image": "pokemonssbanneradler.jpg",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-4": {
+                        "type": "image",
+                        "settings": {
+                            "image": "swjedifobanneradler.jpg",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "slideshow-3",
+                    "slideshow-4",
+                    "slideshow-0",
+                    "slideshow-1",
+                    "slideshow-2"
+                ]
+            }
+        },
+        "content_for_index": [
+            278451540358,
+            "featured_categories",
+            "best_selling_products",
+            "custom_html",
+            "image_with_text",
+            "newsletter",
+            49915046422
+        ]
+    },
+    "default": {
+        "header_color": "#2E2E2E",
+        "header_color_bg": "#ffffff",
+        "accent_color": "#2E2E2E",
+        "body_color": "#292b2c",
+        "button_bg_color": "#2E2E2E",
+        "button_color": "#fff",
+        "body_bg_color": "#fff",
+        "header_bar_color": "#fff",
+        "footer_bg_color": "#000",
+        "footer_title_color": "#fff",
+        "footer_text_color": "#fff",
+        "h1_font": "Google_Work+Sans_400_sans",
+        "h2_font": "Google_Work+Sans_400_sans",
+        "h3_font": "Google_Work+Sans_400_sans",
+        "h4_font": "Google_Work+Sans_400_sans",
+        "h5_font": "Google_Work+Sans_400_sans",
+        "h6_font": "Google_Work+Sans_400_sans",
+        "h1_size": "40px",
+        "h2_size": "32px",
+        "h3_size": "28px",
+        "h4_size": "24px",
+        "h5_size": "20px",
+        "h6_size": "16px",
+        "body_font": "Google_Work+Sans_400_sans",
+        "body_font_size": "14px",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_pinterest_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": "",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "center",
+                    "logo": "",
+                    "header_main_menu": "",
+                    "header_secondary_menu": "",
+                    "show_top_bar": true,
+                    "top_bar_text": "Announce something here",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": "5000",
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "best selling products",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "featured_categories": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "Sub-Heading",
+                    "title": "featured categories",
+                    "ft_cat_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, deleniti.",
+                    "ft_cat_sub_heading_color": "#9b9b9",
+                    "ft_cat_text_color": "#4C4C4C",
+                    "ft_cat_1": "",
+                    "ft_cat_1_img": "",
+                    "ft_cat_2": "",
+                    "ft_cat_2_img": "",
+                    "ft_cat_3": "",
+                    "ft_cat_3_img": "",
+                    "ft_cat_4": "",
+                    "ft_cat_4_img": "",
+                    "ft_cat_show_category_label": true
+                }
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "Custom HTML",
+                    "code": "<h2>Lorem<\/h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>",
+                    "enable_full_width": false
+                }
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+                    "title": "Image with text",
+                    "image": "",
+                    "layout_grid": "half_right_text",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo distinctio unde recusandae fuga dolores in fugit tempore doloribus deserunt modi illo expedita illum, facere numquam voluptatibus dolorem ipsam aliquam veniam?"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "",
+                    "footer_menu_title_1": "our stores",
+                    "footer_menu_1": "",
+                    "footer_menu_title_2": "information",
+                    "footer_menu_2": "",
+                    "footer_menu_title_3": "useful links",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "about the store",
+                    "footer_menu_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quas quidem ullam fugiat.",
+                    "footer_address": "100 Street, City, State, Country",
+                    "footer_phone": "Phone: (000) 000-0000",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "featured_categories",
+            "best_selling_products",
+            "custom_html",
+            "image_with_text"
+        ]
+    }
+}

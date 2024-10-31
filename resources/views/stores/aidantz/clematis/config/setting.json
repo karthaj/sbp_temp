@@ -1,0 +1,565 @@
+{
+    "name": "Clematis",
+    "version": "1.0.0",
+    "meta": {
+        "author_name": "Aidantz AppMedia",
+        "author_url": "#",
+        "author_email": "support@aidantz.com",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        "desktop_screenshot": "",
+        "mobile_screenshot": "",
+        "features": [
+            "Mobile First Design",
+            "SEO optimized",
+            "Lazy Load Images",
+            "Mega Menu",
+            "Retina support",
+            "Supported By all major Browsers",
+            "Free theme updates"
+        ]
+    },
+    "current": {
+        "accent_color": "#2E2E2E",
+        "header_bg_color": "#004dda",
+        "header_text_color": "#fff",
+        "nav_bg_color": "#fff",
+        "nav_text_color": "#111",
+        "topbar_text_color": "#fff",
+        "heading_color": "#111",
+        "body_color": "#444",
+        "body_bg_color": "#fff",
+        "product_on_sale_accent": "#f33",
+        "product_sold_out_color": "#8a9297",
+        "product_new_color": "#9933cc",
+        "product_layout_style": "sticky",
+        "footer_bg_color": "#172134",
+        "footer_text_color": "#fff",
+        "btn_secondary_bg_color": "#FFC107",
+        "btn_secondary_text_color": "#111",
+        "show_category_title": true,
+        "show_category_overlay": true,
+        "category_overlay_opacity": 50,
+        "show_brand_title": true,
+        "show_brand_overlay": true,
+        "brand_overlay_opacity": 50,
+        "contact_title": "Drop Us a Line",
+        "new_tag_days": 11,
+        "social_twitter_link": "#",
+        "social_facebook_link": "#",
+        "social_instagram_link": "#",
+        "social_youtube_link": "#",
+        "custom_css": "",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "nav_layout": 1,
+                    "menu_cat": "",
+                    "show_top_bar": true,
+                    "top_bar_text": "ShopBox Clematis Template",
+                    "top_bar_url": "#",
+                    "phone_text": "Need Help?",
+                    "phone_no": "9438843343"
+                },
+                "blocks": [],
+                "block_order": []
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "style": "default",
+                    "autoplay": false,
+                    "slide_show_speed": 5000
+                },
+                "blocks": {
+                    "slideshow-0": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "show_overlay": true,
+                            "overlay_opacity": "50",
+                            "text_color": "#fff",
+                            "title": "Lorem ipsum asmet",
+                            "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                            "content_position": "center",
+                            "link": "#",
+                            "button_text": "Shop Now"
+                        }
+                    },
+                    "slideshow-1": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "show_overlay": true,
+                            "overlay_opacity": "50",
+                            "text_color": "#fff",
+                            "title": "Lorem ipsum asmet",
+                            "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                            "content_position": "center",
+                            "link": "#",
+                            "button_text": "Shop Now"
+                        }
+                    }
+                },
+                "block_order": [
+                    "slideshow-0",
+                    "slideshow-1"
+                ]
+            },
+            "promotion_banner": {
+                "type": "promotion_banners",
+                "disabled": false,
+                "blocks": {
+                    "banner-0": {
+                        "type": "item",
+                        "settings": {
+                            "image": "",
+                            "show_overlay": true,
+                            "overlay_opacity": "50",
+                            "text_color": "#fff",
+                            "title": "Men's Collection",
+                            "button_text": "Shop Now",
+                            "button_link": "#"
+                        }
+                    },
+                    "banner-1": {
+                        "type": "item",
+                        "settings": {
+                            "image": "",
+                            "show_overlay": true,
+                            "overlay_opacity": "50",
+                            "text_color": "#fff",
+                            "title": "Womens's Collection",
+                            "button_text": "Shop Now",
+                            "button_link": "#"
+                        }
+                    },
+                    "banner-2": {
+                        "type": "item",
+                        "settings": {
+                            "image": "",
+                            "show_overlay": true,
+                            "overlay_opacity": "50",
+                            "text_color": "#fff",
+                            "title": "Kids's Collection",
+                            "button_text": "Shop Now",
+                            "button_link": "#"
+                        }
+                    }
+                },
+                "block_order": [
+                    "banner-0",
+                    "banner-1",
+                    "banner-2"
+                ]
+            },
+            "featured_banner": {
+                "type": "featured_banner",
+                "disabled": false,
+                "settings": {
+                    "image": "",
+                    "show_overlay": true,
+                    "overlay_opacity": "50",
+                    "text_color": "#fff",
+                    "title": "Lorem ipsum dolor sit amet",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                    "content_position": "left",
+                    "link": "#",
+                    "button_text": "Shop Now"
+                }
+            },
+            "featured_products": {
+                "type": "featured_products",
+                "disabled": false,
+                "settings": {
+                    "category": "",
+                    "products_limit": 8,
+                    "layout": "horizontal",
+                    "title": "Top Selling",
+                    "title2": "Lorem",
+                    "content": "Cum doctus civibus efficiantur in imperdiet deterruisset"
+                }
+            },
+            "logo_list": {
+                "type": "logo_list",
+                "disabled": false,
+                "settings": {
+                    "title": "Logo list",
+                    "title2": "Lorem",
+                    "sub_title": "Highlight brands, certifications or sponsors",
+                    "bg_color": "#f8f8f8"
+                },
+                "blocks": {
+                    "logo-0": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "logo-1": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "logo-2": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "logo-3": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "logo-4": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "logo-5": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "logo-0",
+                    "logo-1",
+                    "logo-2",
+                    "logo-3",
+                    "logo-4",
+                    "logo-5"
+                ]
+            },
+            "blog_posts": {
+                "type": "blog_posts",
+                "disabled": false,
+                "settings": {
+                    "title": "Blog posts",
+                    "title2": "Lorem",
+                    "sub_title": "Cum doctus civibus efficiantur in imperdiet deterruisset",
+                    "post_limit": 4,
+                    "show_author": true,
+                    "show_date": true
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "disabled": false,
+                "settings": {
+                    "menu_title_1": "quick links",
+                    "menu_1": "",
+                    "menu_title_2": "categories",
+                    "menu_2": "",
+                    "text_title": "contacts",
+                    "text_address": "97845 Baker st. 567 Los Angeles - US",
+                    "text_phone": "+94 423-23-221",
+                    "text_email": "info@domain.com",
+                    "show_newsletter": true,
+                    "newsletter_title": "keep in touch",
+                    "newsletter_form_action": "",
+                    "show_social_icons": true,
+                    "social_title": "Follow Us",
+                    "show_payment_icons": true,
+                    "submenu": ""
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "promotion_banner",
+            "featured_products",
+            "featured_banner",
+            "logo_list",
+            "blog_posts"
+        ]
+    },
+    "default": {
+        "accent_color": "#2E2E2E",
+        "header_bg_color": "#004dda",
+        "header_text_color": "#fff",
+        "nav_bg_color": "#fff",
+        "nav_text_color": "#111",
+        "topbar_text_color": "#fff",
+        "heading_color": "#111",
+        "body_color": "#444",
+        "body_bg_color": "#fff",
+        "product_on_sale_accent": "#f33",
+        "product_sold_out_color": "#8a9297",
+        "product_new_color": "#9933cc",
+        "product_layout_style": "sticky",
+        "footer_bg_color": "#172134",
+        "footer_text_color": "#fff",
+        "btn_secondary_bg_color": "#FFC107",
+        "btn_secondary_text_color": "#111",
+        "show_category_title": true,
+        "show_category_overlay": true,
+        "category_overlay_opacity": 50,
+        "show_brand_title": true,
+        "show_brand_overlay": true,
+        "brand_overlay_opacity": 50,
+        "contact_title": "Drop Us a Line",
+        "new_tag_days": 11,
+        "social_twitter_link": "#",
+        "social_facebook_link": "#",
+        "social_instagram_link": "#",
+        "social_youtube_link": "#",
+        "custom_css": "",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "nav_layout": 1,
+                    "menu_cat": "",
+                    "show_top_bar": true,
+                    "top_bar_text": "ShopBox Clematis Template",
+                    "top_bar_url": "#",
+                    "phone_text": "Need Help?",
+                    "phone_no": "9438843343"
+                },
+                "blocks": [],
+                "block_order": []
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "style": "default",
+                    "autoplay": false,
+                    "slide_show_speed": 5000
+                },
+                "blocks": {
+                    "slideshow-0": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "show_overlay": true,
+                            "overlay_opacity": "50",
+                            "text_color": "#fff",
+                            "title": "Lorem ipsum asmet",
+                            "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                            "content_position": "center",
+                            "link": "#",
+                            "button_text": "Shop Now"
+                        }
+                    },
+                    "slideshow-1": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "show_overlay": true,
+                            "overlay_opacity": "50",
+                            "text_color": "#fff",
+                            "title": "Lorem ipsum asmet",
+                            "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                            "content_position": "center",
+                            "link": "#",
+                            "button_text": "Shop Now"
+                        }
+                    }
+                },
+                "block_order": [
+                    "slideshow-0",
+                    "slideshow-1"
+                ]
+            },
+            "promotion_banner": {
+                "type": "promotion_banners",
+                "disabled": false,
+                "blocks": {
+                    "banner-0": {
+                        "type": "item",
+                        "settings": {
+                            "image": "",
+                            "show_overlay": true,
+                            "overlay_opacity": "50",
+                            "text_color": "#fff",
+                            "title": "Men's Collection",
+                            "button_text": "Shop Now",
+                            "button_link": "#"
+                        }
+                    },
+                    "banner-1": {
+                        "type": "item",
+                        "settings": {
+                            "image": "",
+                            "show_overlay": true,
+                            "overlay_opacity": "50",
+                            "text_color": "#fff",
+                            "title": "Womens's Collection",
+                            "button_text": "Shop Now",
+                            "button_link": "#"
+                        }
+                    },
+                    "banner-2": {
+                        "type": "item",
+                        "settings": {
+                            "image": "",
+                            "show_overlay": true,
+                            "overlay_opacity": "50",
+                            "text_color": "#fff",
+                            "title": "Kids's Collection",
+                            "button_text": "Shop Now",
+                            "button_link": "#"
+                        }
+                    }
+                },
+                "block_order": [
+                    "banner-0",
+                    "banner-1",
+                    "banner-2"
+                ]
+            },
+            "featured_banner": {
+                "type": "featured_banner",
+                "disabled": false,
+                "settings": {
+                    "image": "",
+                    "show_overlay": true,
+                    "overlay_opacity": "50",
+                    "text_color": "#fff",
+                    "title": "Lorem ipsum dolor sit amet",
+                    "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                    "content_position": "left",
+                    "link": "#",
+                    "button_text": "Shop Now"
+                }
+            },
+            "featured_products": {
+                "type": "featured_products",
+                "disabled": false,
+                "settings": {
+                    "category": "",
+                    "products_limit": 8,
+                    "layout": "horizontal",
+                    "title": "Top Selling",
+                    "title2": "Lorem",
+                    "content": "Cum doctus civibus efficiantur in imperdiet deterruisset"
+                }
+            },
+            "logo_list": {
+                "type": "logo_list",
+                "disabled": false,
+                "settings": {
+                    "title": "Logo list",
+                    "title2": "Lorem",
+                    "sub_title": "Highlight brands, certifications or sponsors",
+                    "bg_color": "#f8f8f8"
+                },
+                "blocks": {
+                    "logo-0": {
+                        "type": "image",
+                        "settings": {
+                            "image": "logo_1.png",
+                            "link": ""
+                        }
+                    },
+                    "logo-1": {
+                        "type": "image",
+                        "settings": {
+                            "image": "logo_2.png",
+                            "link": ""
+                        }
+                    },
+                    "logo-2": {
+                        "type": "image",
+                        "settings": {
+                            "image": "logo_3.png",
+                            "link": ""
+                        }
+                    },
+                    "logo-3": {
+                        "type": "image",
+                        "settings": {
+                            "image": "logo_4.png",
+                            "link": ""
+                        }
+                    },
+                    "logo-4": {
+                        "type": "image",
+                        "settings": {
+                            "image": "logo_5.png",
+                            "link": ""
+                        }
+                    },
+                    "logo-5": {
+                        "type": "image",
+                        "settings": {
+                            "image": "logo_6.png",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "logo-0",
+                    "logo-1",
+                    "logo-2",
+                    "logo-3",
+                    "logo-4",
+                    "logo-5"
+                ]
+            },
+            "blog_posts": {
+                "type": "blog_posts",
+                "disabled": false,
+                "settings": {
+                    "title": "Blog posts",
+                    "title2": "Lorem",
+                    "sub_title": "Cum doctus civibus efficiantur in imperdiet deterruisset",
+                    "post_limit": 4,
+                    "show_author": true,
+                    "show_date": true
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "disabled": false,
+                "settings": {
+                    "menu_title_1": "quick links",
+                    "menu_1": "",
+                    "menu_title_2": "categories",
+                    "menu_2": "",
+                    "text_title": "contacts",
+                    "text_address": "97845 Baker st. 567 Los Angeles - US",
+                    "text_phone": "+94 423-23-221",
+                    "text_email": "info@domain.com",
+                    "show_newsletter": true,
+                    "newsletter_title": "keep in touch",
+                    "newsletter_form_action": "",
+                    "show_social_icons": true,
+                    "social_title": "Follow Us",
+                    "show_payment_icons": true,
+                    "submenu": ""
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "promotion_banner",
+            "featured_products",
+            "featured_banner",
+            "logo_list",
+            "blog_posts"
+        ]
+    }
+}

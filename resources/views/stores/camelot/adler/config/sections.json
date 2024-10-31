@@ -1,0 +1,268 @@
+[
+	{
+		"name": "Slideshow",
+		"defaults": {
+	        "type": "slideshow",
+            "disabled": false,
+            "settings": {
+                "slide_show_speed": "5000",
+                "slider_animation": "fade"
+            },
+            "blocks": {
+                "slideshow-0": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "link": ""
+                    }
+                },
+                "slideshow-1": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "link": ""
+                    }
+                },
+                "slideshow-2": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "link": ""
+                    }
+                },
+                "slideshow-3": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "link": ""
+                    }
+                },
+                "slideshow-4": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "link": ""
+                    }
+                }
+            },
+            "block_order": [
+                "slideshow-0",
+                "slideshow-1",
+                "slideshow-2",
+                "slideshow-3",
+                "slideshow-4"
+            ]
+	    }
+	},
+	{
+		"name": "Featured Categories",
+		"defaults": {
+			"type": "featured-categories",
+            "disabled": false,
+            "settings": {
+              "ft_cat_sub_heading": "SUBHEADING",
+              "title": "FEATURED CATEGORIES",
+              "ft_cat_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, deleniti.",
+              "ft_cat_sub_heading_color": "#9b9b9",
+              "ft_cat_text_color": "#4C4C4C",
+                "ft_cat_1": "",
+                "ft_cat_1_img": "",
+                "ft_cat_2": "",
+                "ft_cat_2_img": "",
+                "ft_cat_3": "",
+                "ft_cat_3_img": "",
+                "ft_cat_4": "",
+                "ft_cat_4_img": "",
+                "ft_cat_show_category_label": true
+            }
+		}
+	},
+    {
+        "name": "Featured Categories Alt",
+        "defaults": {
+            "type": "featured-categories-alt",
+            "disabled": false,
+            "settings": {
+                "ft_cat_bg": "",
+                "ft_cat_sub_heading": "SUBHEADING",
+                "title": "FEATURED CATEGORIES ALT",
+                "ft_cat_sub_heading_color": "#9b9b9",
+                "ft_cat_bg_color": "#fff",
+                "ft_cat_1": "",
+                "ft_cat_1_img": "",
+                "ft_cat_2": "",
+                "ft_cat_2_img": "",
+                "ft_cat_3": "",
+                "ft_cat_3_img": "",
+                "ft_cat_4": "",
+                "ft_cat_4_img": "",
+                "ft_cat_show_category_label": true
+            }
+        }
+    },
+	{
+		"name": "Product Grid",
+		"defaults": {
+			"type": "product-grid",
+            "disabled": false,
+            "settings": {
+                "title": "Product Grid",
+                "column_grid": 3
+            },
+            "blocks": {
+                "product-0": {
+                    "type": "product",
+                    "settings": {
+                        "product": ""
+                    }
+                },
+                "product-1": {
+                    "type": "product",
+                    "settings": {
+                        "product": ""
+                    }
+                },
+                "product-2": {
+                    "type": "product",
+                    "settings": {
+                        "product": ""
+                    }
+                },
+                "product-3": {
+                    "type": "product",
+                    "settings": {
+                        "product": ""
+                    }
+                },
+                "product-4": {
+                    "type": "product",
+                    "settings": {
+                        "product": ""
+                    }
+                },
+                "product-5": {
+                    "type": "product",
+                    "settings": {
+                        "product": ""
+                    }
+                },
+                "product-6": {
+                    "type": "product",
+                    "settings": {
+                        "product": ""
+                    }
+                },
+                "product-7": {
+                    "type": "product",
+                    "settings": {
+                        "product": ""
+                    }
+                },
+                "product-8": {
+                    "type": "product",
+                    "settings": {
+                        "product": ""
+                    }
+                }
+            },
+            "block_order": [
+                "product-0",
+                "product-1",
+                "product-2",
+                "product-3",
+                "product-4",
+                "product-5",
+                "product-6",
+                "product-7",
+                "product-8"
+            ]
+		}
+	},
+    {
+        "name": "Text Banner",
+        "defaults": {
+            "type": "text-banner",
+            "disabled": false,
+            "settings": {
+                "banner_title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, tempore!",
+                "banner_subtitle": "Lorem ipsum dolor sit amet.",
+                "banner_bg_color": "#000",
+                "banner_txt_color": "#fff"
+            }
+        }
+    },
+    {
+        "name": "Brand List",
+        "defaults": {
+            "type": "brand-list",
+            "disabled": false,
+            "settings": {
+                "title": "Lorem ipsum dolor."
+            },
+            "blocks": {
+                "brand-0": {
+                    "type": "image",
+                    "settings": {
+                        "brand": ""
+                    }
+                },
+                "brand-1": {
+                    "type": "image",
+                    "settings": {
+                        "brand": ""
+                    }
+                },
+                "brand-2": {
+                    "type": "image",
+                    "settings": {
+                        "brand": ""
+                    }
+                }
+            },
+            "block_order": [
+                "brand-0",
+                "brand-1",
+                "brand-2"
+            ]
+        }
+    },
+	{
+		"name": "Custom HTML",
+		"defaults": {
+			"type": "custom-html",
+            "disabled": false,
+            "settings": {
+              "title": "Custom HTML",
+              "code": "<h2>Lorem<\/h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>",
+              "enable_full_width": true
+            }
+		}
+	},
+	{
+		"name": "Image with text",
+		"defaults": {
+			"type": "image-with-text",
+            "disabled": false,
+            "settings": {
+                "title": "Image with text",
+                "image": "",
+                "layout_grid": "half_right_text",
+                "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo distinctio unde recusandae fuga dolores in fugit tempore doloribus deserunt modi illo expedita illum, facere numquam voluptatibus dolorem ipsam aliquam veniam?"
+            }
+		}
+	},
+	{
+		"name": "Newsletter",
+		"defaults": {
+	        "type": "newsletter",
+	        "disabled": false,
+	        "settings": {
+    	        "newsletter_bg": "",
+    	        "newsletter_sub_heading": "Subheading goes here",
+    	        "title": "Newsletter",
+    	        "newsletter_text": "Hey you, sign up it only takes a second to be the first to find out about our latest news and promotions…",
+                "newsletter_form_action": ""
+	        }
+	    }
+	}
+]

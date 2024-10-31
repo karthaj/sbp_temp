@@ -1,0 +1,481 @@
+{
+    "name": "Adler",
+    "version": "2.5.0",
+    "meta": {
+        "author_name": "Aidantz AppMedia",
+        "author_url": "#",
+        "author_email": "support@aidantz.com",
+        "description": "Ideal for a wide range of businesses and brands, this design is fully responsive, simple, and ready for you to add your branding, logo, and products.",
+        "desktop_screenshot": "desktop.jpg",
+        "mobile_screenshot": "",
+        "features": [
+            "Fully responsive",
+            "Social media icons",
+            "Product quickview",
+            "3 header styles",
+            "customizable sections",
+            "Free theme updates"
+        ]
+    },
+    "current": {
+        "header_color": "#2E2E2E",
+        "header_color_bg": "#ffffff",
+        "accent_color": "#2E2E2E",
+        "body_color": "#292b2c",
+        "button_bg_color": "#2E2E2E",
+        "button_color": "#fff",
+        "body_bg_color": "#fff",
+        "header_bar_color": "#fff",
+        "footer_bg_color": "#000",
+        "footer_title_color": "#fff",
+        "footer_text_color": "#fff",
+        "h1_font": "Google_Work+Sans_400_sans",
+        "h2_font": "Google_Work+Sans_400_sans",
+        "h3_font": "Google_Work+Sans_400_sans",
+        "h4_font": "Google_Work+Sans_400_sans",
+        "h5_font": "Google_Work+Sans_400_sans",
+        "h6_font": "Google_Work+Sans_400_sans",
+        "h1_size": "40px",
+        "h2_size": "32px",
+        "h3_size": "28px",
+        "h4_size": "24px",
+        "h5_size": "20px",
+        "h6_size": "16px",
+        "body_font": "Google_Work+Sans_400_sans",
+        "body_font_size": "14px",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_pinterest_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": ".begin {\n background-color: black;\n padding-bottom: 34px;\n padding-top: 34px;\n color: white;\n}\n.mega-menu {\n background-color: black;\n border-top: solid 1px black;\n border-bottom: solid 1px black;\n}\n.b-main_footer {\n display:none;\n}\n\n.b-main_menu .top {\n  color: black;\n}\n.secondary-menu .top {\n  color: white;\n}",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "center",
+                    "logo": "bare-logo.jpg",
+                    "header_main_menu": "blank",
+                    "header_secondary_menu": "megamenu",
+                    "show_top_bar": false,
+                    "top_bar_text": "#EMBRACECHANGE",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": 5000,
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "best selling products",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "featured_categories": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "#CHALLENGEYOURSELF",
+                    "title": "featured categories",
+                    "ft_cat_text": "We change the way you exercise. Beautiful spaces. Friendly community. Knowledgable instructors. Excellent technique. Fabulous music. Come along and #embracechange!",
+                    "ft_cat_sub_heading_color": "#9b9b9",
+                    "ft_cat_text_color": "#4C4C4C",
+                    "ft_cat_1": "reformer-pilates-groups",
+                    "ft_cat_1_img": "cat1.jpg",
+                    "ft_cat_2": "barre-mat-pilates-yoga-group-classes",
+                    "ft_cat_2_img": "cat2.jpg",
+                    "ft_cat_3": "reformer-mat-private-training",
+                    "ft_cat_3_img": "cat3.jpg",
+                    "ft_cat_4": "combo-packs",
+                    "ft_cat_4_img": "cat4.jpg",
+                    "ft_cat_show_category_label": true,
+                    "title": "OUR OFFERING"
+                }
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+					"title": "Custom HTML",
+                    "code": "<h2>Lorem<\/h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>",
+                    "enable_full_width": false
+                }
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+					"title": "Image with text",
+                    "image": "",
+                    "layout_grid": "half_right_text",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo distinctio unde recusandae fuga dolores in fugit tempore doloribus deserunt modi illo expedita illum, facere numquam voluptatibus dolorem ipsam aliquam veniam?"
+                }
+            },
+            "newsletter": {
+                "type": "newsletter",
+                "disabled": true,
+                "settings": {
+                    "newsletter_bg": "",
+                    "newsletter_sub_heading": "Subheading goes here",
+                    "newsletter_heading": "Newsletter Heading",
+                    "newsletter_text": "Hey you, sign up it only takes a second to be the first to find out about our latest news and promotions\u2026",
+                    "newsletter_form_action": "https:\/\/aidantz.us16.list-manage.com\/subscribe\/post?u=65544a59a0e0952217644967b&amp;id=0d45eafcc3"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "",
+                    "footer_menu_title_1": "",
+                    "footer_menu_1": "",
+                    "footer_menu_title_2": "",
+                    "footer_menu_2": "",
+                    "footer_menu_title_3": "",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "",
+                    "footer_menu_text": "",
+                    "footer_address": "",
+                    "footer_phone": "",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            },
+            "647517048686": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": 5000,
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "slideshow-0": {
+                        "type": "image",
+                        "settings": {
+                            "image": "bare-slide1.jpg",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-1": {
+                        "type": "image",
+                        "settings": {
+                            "image": "bare-slide2.jpg",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "slideshow-0",
+                    "slideshow-1"
+                ]
+            },
+            "896879294016": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "Direction to reach us",
+                    "code": "<div class=\"row align-items-center\">\n <div class=\"col-md-7\">\n \t<iframe src=\"https:\/\/www.google.com\/maps\/embed?pb=!1m18!1m12!1m3!1d3960.9523664742255!2d79.87374171512887!3d6.8963010950168275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259d45fa52113%3A0x3d53bc2608d1df82!2sBarressential!5e0!3m2!1sen!2slk!4v1571135026458!5m2!1sen!2slk\" width=\"100%\" height=\"300px\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"><\/iframe>\n <\/div>\n <div class=\"col-md-5 text-center\">\n  <h2>GET TO US<\/h2>\n  <p>We are located on Thimbirigasyaya Road next to the Abhayarama Temple (Baseline Road end).<\/p>\n  <p>Please note UBER sends you to the wrong location, please input below address into the app. <\/p>\n  <p><strong>Level 3, 514 Thimbirigasyaya Road, Colombo 05<\/strong><\/p>\n <\/div>\n<\/div>",
+                    "width": true,
+                    "enable_full_width": false
+                }
+            },
+            "232917221326": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "POPular classes",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": "combo-4-pack"
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": "barre-mat-5-pack"
+                        }
+                    },
+                    "product-2": {
+                        "type": "product",
+                        "settings": {
+                            "product": "mat-private-training-one-hour"
+                        }
+                    },
+                    "product-3": {
+                        "type": "product",
+                        "settings": {
+                            "product": "reformer-drop-in"
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1",
+                    "product-2",
+                    "product-3"
+                ]
+            },
+            "596756236661": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "",
+                    "code": "<div class=\"container-fluid begin\">\n    <div class=\"row clearfix align-items-center\">\n        <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12\">\n            <img src=\"https:\/\/barressential.myshopbox.lk\/stores\/barressential\/img\/bare-imgtxt.jpg\" alt=\"\" class=\"img-fluid d-block m-auto\">\n        <\/div> \n        <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12\">\n            <div class=\"b-about_text\">\n                <h1><strong>BEGIN YOUR JOURNEY<\/strong><\/h1>\n                <p>Our group fitness classes run Monday to Saturday. Private classes are by appointment &amp; we do specialist workshops! <br><br>\n                We run a super easy online booking system. Book online and come by for your class - we love to have you around the studio!\n                <\/p>\n            <\/div>\n        <\/div>\n        <div class=\"col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12\">\n            <img src=\"https:\/\/barressential.myshopbox.lk\/stores\/barressential\/img\/bare-imgtxt.jpg\" alt=\"\" class=\"img-fluid d-block m-auto\">\n        <\/div> \n    <\/div>\n<\/div>",
+                    "width": true,
+                    "enable_full_width": true
+                }
+            },
+            "690152673727": {
+                "type": "custom-html",
+                "disabled": true,
+                "settings": {
+                    "title": "Custom HTML",
+                    "code": "<img src=\"https:\/\/static.wixstatic.com\/media\/b51e2c_a386b0d8f9f7436aa9786cfc571f9f79~mv2.jpg\/v1\/fill\/w_740,h_486,al_c,q_90,usm_0.66_1.00_0.01\/b51e2c_a386b0d8f9f7436aa9786cfc571f9f79~mv2.webp\">",
+                    "width": true
+                }
+            }
+        },
+        "content_for_index": [
+            647517048686,
+            "featured_categories",
+            232917221326,
+            596756236661,
+            "newsletter",
+            896879294016,
+            690152673727
+        ]
+    },
+    "default": {
+        "header_color": "#000000e6",
+        "header_color_bg": "#ffffff",
+        "accent_color": "#2E2E2E",
+        "body_color": "#292b2c",
+        "button_bg_color": "#fff",
+        "button_color": "#fff",
+        "body_bg_color": "#fff",
+        "header_bar_color": "#fff",
+        "footer_bg_color": "#000",
+        "footer_title_color": "#fff",
+        "footer_text_color": "#fff",
+        "h1_font": "Google_Work+Sans_400_sans",
+        "h2_font": "Google_Work+Sans_400_sans",
+        "h3_font": "Google_Work+Sans_400_sans",
+        "h4_font": "Google_Work+Sans_400_sans",
+        "h5_font": "Google_Work+Sans_400_sans",
+        "h6_font": "Google_Work+Sans_400_sans",
+        "h1_size": "40px",
+        "h2_size": "32px",
+        "h3_size": "28px",
+        "h4_size": "24px",
+        "h5_size": "20px",
+        "h6_size": "16px",
+        "body_font": "Google_Work+Sans_400_sans",
+        "body_font_size": "14px",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_pinterest_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": "",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "center",
+                    "logo": "",
+                    "header_main_menu": "main-menu",
+                    "header_secondary_menu": "main-menu",
+                    "show_top_bar": true,
+                    "top_bar_text": "Announce something here",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": "5000",
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "best selling products",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "featured_categories": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "Sub-Heading",
+                    "title": "featured categories",
+                    "ft_cat_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, deleniti.",
+                    "ft_cat_sub_heading_color": "#9b9b9",
+                    "ft_cat_text_color": "#4C4C4C",
+                    "ft_cat_1": "",
+                    "ft_cat_2": "",
+                    "ft_cat_3": "",
+                    "ft_cat_4": "",
+                    "ft_cat_show_category_label": true
+                }
+            },
+            "featured_products": {
+                "type": "featured-products",
+                "disabled": true,
+                "settings": {
+                    "ft_product_limits": 3
+                }
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+					"title": "Custom HTML",
+                    "code": "<h2>Lorem<\/h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>",
+                    "enable_full_width": false
+                }
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+					"title": "Image with text",
+                    "image": "",
+                    "layout_grid": "half_right_text",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo distinctio unde recusandae fuga dolores in fugit tempore doloribus deserunt modi illo expedita illum, facere numquam voluptatibus dolorem ipsam aliquam veniam?"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "",
+                    "footer_menu_title_1": "our stores",
+                    "footer_menu_1": "",
+                    "footer_menu_title_2": "information",
+                    "footer_menu_2": "",
+                    "footer_menu_title_3": "useful links",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "about the store",
+                    "footer_menu_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quas quidem ullam fugiat.",
+                    "footer_address": "100 Street, City, State, Country",
+                    "footer_phone": "Phone: (000) 000-0000",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "featured_categories",
+            "best_selling_products",
+            "featured_products",
+            "custom_html",
+            "image_with_text"
+        ]
+    }
+}

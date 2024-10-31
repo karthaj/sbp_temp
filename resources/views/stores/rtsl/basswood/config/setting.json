@@ -1,0 +1,397 @@
+{
+    "name": "Basswood",
+    "version": "2.0.0",
+    "meta": {
+        "author_name": "Aidantz AppMedia",
+        "author_url": "https:\/\/www.aidantz.com",
+        "author_email": "support@aidantz.com",
+        "description": "A clean and minimal theme, perfect for showcasing products",
+        "desktop_screenshot": "desktop.jpg",
+        "mobile_screenshot": "",
+        "features": [
+            "Fully responsive",
+            "Social media icons",
+            "Product quickview",
+            "3 header styles",
+            "customizable sections",
+            "Free theme updates"
+        ]
+    },
+    "current": {
+        "box_view": false,
+        "header_style": 1,
+        "header_color": "#7a7a7a",
+        "header_bg_color": "#fff",
+        "footer_bg_color": "#fff",
+        "footer_color": "#7a7a7a",
+        "accent_color": "#24bddf",
+        "body_color": "#fff",
+        "body_font": "Google_Raleway_400_sans",
+        "promo_title_font": "Google_Roboto+Slab_700_serif",
+        "promo_subtitle_font": "Google_Roboto+Slab_700_serif",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_google_plus_link": "",
+        "custom_css": "",
+        "show_multiple_currencies": true,
+        "supported_currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header_style_1": {
+                "type": "header",
+                "settings": {
+                    "logo": "logo-final.png",
+                    "menu": "main-menu",
+                    "phone": "+94773815545",
+                    "email": "secretary@rtsrilanka.org"
+                }
+            },
+            "header_style_2": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu"
+                }
+            },
+            "header_style_3": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": "(00) 123 4567",
+                    "email": "youremail@domain.com",
+                    "message": "Welcome you to Basswood store!"
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "text_color": "#FFFFFF",
+                    "button_bg_color": "#DD1B1B",
+                    "slide_show_speed": 8000
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "1-1.png",
+                            "title": "Roundtable srilanka",
+                            "text_1": "Go beyond",
+                            "text_2": "Kids off the street",
+                            "text_3": "Emerge",
+                            "button_label": "Make your pledge Now",
+                            "button_link": "https:\/\/rtsl.myshopbox.lk\/products\/rtsl-green-take-action"
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "2.jpg",
+                            "text_1": "Go beyond",
+                            "title": "Roundtable srilanka",
+                            "text_2": "REGAINING THE SMILE",
+                            "text_3": "",
+                            "button_label": "Make your pledge Now",
+                            "button_link": "https:\/\/rtsl.myshopbox.lk\/products\/rtsl-green-take-action"
+                        }
+                    },
+                    "slideshow-3": {
+                        "type": "image",
+                        "settings": {
+                            "image": "1.jpg",
+                            "text_1": "",
+                            "title": "",
+                            "text_2": "",
+                            "text_3": "",
+                            "button_label": "Make your pledge Now",
+                            "button_link": "https:\/\/rtsl.myshopbox.lk\/products\/rtsl-green-take-action"
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    "slideshow-3",
+                    6130072884
+                ]
+            },
+            "contact": {
+                "type": "contact",
+                "settings": {
+                    "title": "Store information",
+                    "address": "Store address here",
+                    "phone": "(xxx) xxx xxxx",
+                    "email": "demo@basswood.com"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "style": 2,
+                    "logo": "logo-final.png",
+                    "menu": ""
+                }
+            },
+            "107936453828": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+                    "style": 2,
+                    "image": "capture3.jpg",
+                    "title": "Presidents Message",
+                    "title_link": "",
+                    "description": "<p>I consider myself blessed to have been introduced to Round Table and an honor to be chosen to lead the organisation which two years ago during the darkest moments of my life saved my life with the power of the brotherhood.<br><br>It has made me a student of life. After all RT is the university of life. meeting so many friends from all over the world and everyone having a story to tell. My school Alma mater Royal College always encouraged me to learn from books & learn from people but it is after joining Round Table that I started learning about people and working with them. It has changed how I approach life at work and in general as well.<br><br>It is a great honor to lead RT Sri Lanka in its 25th year of Tabling. We have had an amazing journey and now it is about Going Beyond the set paradigms of tabling and make it a stronger force in society thereby benefiting the country as well as the members. I invite the Ladies Circle, 41ers and the Tangents to join us to grow the side by side movement in Sri Lanka.<br><br>I look forward to your support in this journey. Let\u2019s make Tabling stronger in Sri Lanka, together.<br><\/p>",
+                    "button_label": "",
+                    "button_link": ""
+                }
+            },
+            "461070693213": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "title": "RTSL GREEN MERCHANDISE",
+                    "subtitle": "GO BEYOND THE TALK | GO BEYOND THE HYPE"
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": "rtsl-green-take-action"
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0"
+                ]
+            },
+            "921462178724": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "RTSL National BOARD 2019\/2020",
+                    "code": "<figure style=\"text-align: center;\"><img src=\"https:\/\/rtsl.myshopbox.lk\/stores\/rtsl\/img\/67093948_10156106881657121_12903151204040704_n.jpg\" data-image=\"868qxqs13h2o\" width=\"814.5874587458745\" height=\"\" style=\"width: 100%; height: 100%;\"><\/figure>"
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            107936453828,
+            461070693213,
+            921462178724
+        ]
+    },
+    "default": {
+        "box_view": false,
+        "header_style": 1,
+        "header_color": "#7a7a7a",
+        "header_bg_color": "#fff",
+        "footer_bg_color": "#fff",
+        "footer_color": "#7a7a7a",
+        "accent_color": "#24bddf",
+        "body_color": "#fff",
+        "body_font": "Google_Raleway_400_sans",
+        "promo_title_font": "Google_Roboto+Slab_700_serif",
+        "promo_subtitle_font": "Google_Roboto+Slab_700_serif",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_google_plus_link": "",
+        "custom_css": "",
+        "show_multiple_currencies": true,
+        "supported_currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header_style_1": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": "(00) 123 4567",
+                    "email": "youremail@domain.com"
+                }
+            },
+            "header_style_2": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu"
+                }
+            },
+            "header_style_3": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": "(00) 123 4567",
+                    "email": "youremail@domain.com",
+                    "message": "Welcome you to Basswood store!"
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "slide_show_speed": 5000,
+                    "text_color": "#252525",
+                    "button_bg_color": "#fff"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "title": "Image Slide",
+                            "text_1": "Lorem ipsum",
+                            "text_2": "Lorem ipsum",
+                            "text_3": "Lorem ipsum",
+                            "button_label": "Button",
+                            "button_link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "text_1": "Lorem ipsum",
+                            "title": "Image Slide",
+                            "text_2": "Lorem ipsum",
+                            "text_3": "Lorem ipsum",
+                            "button_label": "Button",
+                            "button_link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "banner": {
+                "type": "banner",
+                "disabled": false,
+                "settings": {
+                    "banner_img_1": "",
+                    "banner_link_1": "",
+                    "banner_img_2": "",
+                    "banner_link_2": "",
+                    "banner_img_3": "",
+                    "banner_link_3": ""
+                }
+            },
+            "promo_banner": {
+                "type": "promo-banner",
+                "disabled": false,
+                "settings": {
+                    "image": "",
+                    "logo": "",
+                    "title": "promo banner",
+                    "subtite": "Lorem ipsum dolor",
+                    "button_color": "#fff",
+                    "button_label": "Button",
+                    "button_link": ""
+                }
+            },
+            "feature-list": {
+                "type": "feature-list",
+                "disabled": false,
+                "settings": {
+                    "style": "grid",
+                    "feature_img_1": "",
+                    "feature_title_1": "Free Shipping",
+                    "feature_subtitle_1": "Free shipping on all order over $99.00",
+                    "feature_img_2": "",
+                    "feature_title_2": "Online Support 24\/7",
+                    "feature_subtitle_2": "We are here to make your day. Let\u2019s talk!",
+                    "feature_img_3": "",
+                    "feature_title_3": "Money Back Guarantee!",
+                    "feature_subtitle_3": "We free 30 days 100% money back & return"
+                }
+            },
+            "instagram": {
+                "type": "instagram",
+                "disabled": false,
+                "settings": {
+                    "style": 2,
+                    "username": "username",
+                    "access_token": "",
+                    "image_limit": 6
+                }
+            },
+            "blog_post": {
+                "type": "blog-post",
+                "disabled": false,
+                "settings": {
+                    "title": "Blog posts",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum provident, odio corporis laborum hic odit.",
+                    "post_limit": 3,
+                    "image": ""
+                }
+            },
+            "product_grid": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "title": "Featured Products",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "Custom HTML",
+                    "code": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>"
+                }
+            },
+            "contact": {
+                "type": "contact",
+                "settings": {
+                    "title": "Store information",
+                    "address": "Store address here",
+                    "phone": "(xxx) xxx xxxx",
+                    "email": "demo@basswood.com"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "style": 1,
+                    "logo": "",
+                    "menu": ""
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "banner",
+            "product_grid",
+            "promo_banner",
+            "feature-list",
+            "instagram",
+            "blog_post"
+        ]
+    }
+}

@@ -1,0 +1,425 @@
+{
+    "name": "Adler",
+    "version": "2.5.0",
+    "meta": {
+        "author_name": "Aidantz AppMedia",
+        "author_url": "#",
+        "author_email": "support@aidantz.com",
+        "description": "Ideal for a wide range of businesses and brands, this design is fully responsive, simple, and ready for you to add your branding, logo, and products.",
+        "desktop_screenshot": "desktop.jpg",
+        "mobile_screenshot": "",
+        "features": [
+            "Fully responsive",
+            "Social media icons",
+            "Product quickview",
+            "3 header styles",
+            "customizable sections",
+            "Free theme updates"
+        ]
+    },
+    "current": {
+        "header_color": "#B9BAB7",
+        "header_color_bg": "#ECECEC",
+        "accent_color": "#9CC557",
+        "body_color": "#B9BAB7",
+        "button_bg_color": "#9CC557",
+        "button_color": "#B9BAB7",
+        "body_bg_color": "#fff",
+        "header_bar_color": "#B9BAB7",
+        "footer_bg_color": "#B9BAB7",
+        "footer_title_color": "#fff",
+        "footer_text_color": "#fff",
+        "h1_font": "Google_Lato_400_sans",
+        "h2_font": "Google_Lato_400_sans",
+        "h3_font": "Google_Lato_400_sans",
+        "h4_font": "Google_Lato_400_sans",
+        "h5_font": "Google_Lato_400_sans",
+        "h6_font": "Google_Lato_400_sans",
+        "h1_size": "40px",
+        "h2_size": "40px",
+        "h3_size": "40px",
+        "h4_size": "40px",
+        "h5_size": "40px",
+        "h6_size": "40px",
+        "body_font": "Google_Lato_400_sans",
+        "body_font_size": "14px",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_pinterest_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": "",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "left",
+                    "logo": "ananta-logo.png",
+                    "header_main_menu": "nothingness",
+                    "header_secondary_menu": "top-menu",
+                    "show_top_bar": false,
+                    "top_bar_text": "Announce something here",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": true,
+                "settings": {
+                    "slide_show_speed": 5000,
+                    "slider_animation": "slide"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "anantashehan4-sb6.jpg",
+                            "link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "anantashehan-sb6.jpg",
+                            "link": ""
+                        }
+                    },
+                    "6720610807": {
+                        "type": "image",
+                        "settings": {
+                            "image": "anantashehan3-sb4.png",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884,
+                    6720610807
+                ]
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": true,
+                "settings": {
+                    "title": "Top Products",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "featured_categories": {
+                "type": "featured-categories",
+                "disabled": true,
+                "settings": {
+                    "ft_cat_sub_heading": "Sub-Heading",
+                    "title": "featured categories",
+                    "ft_cat_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, deleniti.",
+                    "ft_cat_sub_heading_color": "#9b9b9",
+                    "ft_cat_text_color": "#4C4C4C",
+                    "ft_cat_1": "containers",
+                    "ft_cat_1_img": "anantashehan4-sb6.jpg",
+                    "ft_cat_2": "straws",
+                    "ft_cat_2_img": "anantashehan-sb6.jpg",
+                    "ft_cat_3": "cutlery",
+                    "ft_cat_3_img": "anantashehan3-sb4.png",
+                    "ft_cat_4": "",
+                    "ft_cat_4_img": "",
+                    "ft_cat_show_category_label": true,
+                    "title": "CATEGORIES"
+                }
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": true,
+                "settings": {
+				
+                    "code": "<div class=\"b-products b-product_grid b-product_grid_three mb-3\"> ==$0\n<div class=\"container\"> ==$0\n\t<div class=\"row justify-content-center clearfix\"> ==$0\n    \t<div class=\"col-xl-4 col-lg-4 col-mb-4 col-sm-4 col-xs-12\"> ==$0\n        \t<div class=\"b-product_grid_single\"> ==$0\n            <div class=\"b-product_grid_header\" ==$0\n            <img src=\"https:\/\/via.placeholder.com\/263x336\" alt=\"263x336\" class=\"img-fluid d-block\"> ==$0\n            <div class=\"b-product_grid_action> ==$0\n         \t<\/div>\n         \t<\/div>\n            <\/div>\n         <\/div>\n      <\/div>\n   \t<\/div>\n\n<h2>Lorem<\/h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>\n<a href=\"https:\/\/anantasustainables.myshopbox.lk\/categories\/containers\" target=\"_self\" class=\" description \"> ==$0 <\/a>",
+                    "enable_full_width": false,
+                    "title": "PRODUCTS"
+                }
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": true,
+                "settings": {
+                    "image": "anantashehan4-sb6.jpg",
+                    "layout_grid": "two_third_right_image",
+                    "text": "<p>Everything we provide is 100% compostable. We work with paper, wood, bagasse, and materials made from agricultural waste.<br><\/p>\n<p>We are relentlessly optimistic about the power of community, collaboration, and technology to produce innovative solutions to some of the biggest environmental and social challenges.&nbsp;<\/p><p>Sustainability should not be a compromise, that\u2019s why we prioritize quality, design, and accessibility. <\/p>",
+                    "title": ""
+                }
+            },
+            "newsletter": {
+                "type": "newsletter",
+                "disabled": true,
+                "settings": {
+                    "newsletter_bg": "",
+                    "newsletter_sub_heading": "Subheading goes here",
+                    "newsletter_heading": "Newsletter Heading",
+                    "newsletter_text": "Hey you, sign up it only takes a second to be the first to find out about our latest news and promotions\u2026",
+                    "newsletter_form_action": "https:\/\/aidantz.us16.list-manage.com\/subscribe\/post?u=65544a59a0e0952217644967b&amp;id=0d45eafcc3"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "coversion-prototype.jpg",
+                    "footer_menu_title_1": "",
+                    "footer_menu_1": "",
+                    "footer_menu_title_2": "",
+                    "footer_menu_2": "",
+                    "footer_menu_title_3": "",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "",
+                    "footer_menu_text": "Delivering Island Wide",
+                    "footer_address": "Colombo, Sri Lanka",
+                    "footer_phone": "",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            },
+            "779971034024": {
+                "type": "image-with-text",
+                "disabled": true,
+                "settings": {
+                    "title": "",
+                    "image": "anantashehan-sb6.jpg",
+                    "layout_grid": "two_third_right_image",
+                    "text": "<p>We handle the logistics of sustainability.<\/p><p>We understand the difficulties of running a business, that\u2019s why we work with businesses to make their supply chains more sustainable in the most cost effective and convenient way possible. <\/p>\n<p>We will find the most sustainable products and take care of the logistics of how to get them to you when you need them. <\/p>"
+                }
+            },
+            "837474379915": {
+                "type": "image-with-text",
+                "disabled": true,
+                "settings": {
+                    "title": "",
+                    "image": "anantashehan3-sb4.png",
+                    "layout_grid": "one_third_right_text",
+                    "text": "<p>We only work with compostables.<\/p><p>Nothing that is used once and is discarded within minutes should last centuries. That is why we only source and supply packaging made of natural materials that will break down into nutrients for the soil. <\/p>\n<p>Our goal is to replace all single use plastics with natural alternative that will last for 90 days, not 500 years.<\/p>"
+                }
+            },
+            "622334743382": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+                    "title": "Welcome!",
+                    "image": "conversion-roadmap.jpg",
+                    "layout_grid": "half_right_text",
+                    "text": "<p>We're always working to expand our range and make everything more affordable, so if you didn't see what you're looking for, reach out and we'll find it for you! Everything weprovide is 100% Compostable.<\/p><p>We are relentlessly optimistic about the power of community, collaboration, and technology to produce innovative solutions to some of the biggest environmental and social challenges. <\/p>\n<p>Sustainability should not be a compromise, that\u2019s why we prioritize quality, design, and accessibility. <br><br>We understand the difficulties of running a business, that\u2019s why we work with businesses to make their supply chains more sustainable in the most cost effective and convenient way possible. <br><\/p>"
+                }
+            }
+        },
+        "content_for_index": [
+            "image_with_text",
+            837474379915,
+            779971034024,
+            "slideshow",
+            "featured_categories",
+            "best_selling_products",
+            "custom_html",
+            "newsletter",
+            622334743382
+        ]
+    },
+    "default": {
+        "header_color": "#000000e6",
+        "header_color_bg": "#ffffff",
+        "accent_color": "#2E2E2E",
+        "body_color": "#292b2c",
+        "button_bg_color": "#fff",
+        "button_color": "#fff",
+        "body_bg_color": "#fff",
+        "header_bar_color": "#fff",
+        "footer_bg_color": "#000",
+        "footer_title_color": "#fff",
+        "footer_text_color": "#fff",
+        "h1_font": "Google_Work+Sans_400_sans",
+        "h2_font": "Google_Work+Sans_400_sans",
+        "h3_font": "Google_Work+Sans_400_sans",
+        "h4_font": "Google_Work+Sans_400_sans",
+        "h5_font": "Google_Work+Sans_400_sans",
+        "h6_font": "Google_Work+Sans_400_sans",
+        "h1_size": "40px",
+        "h2_size": "32px",
+        "h3_size": "28px",
+        "h4_size": "24px",
+        "h5_size": "20px",
+        "h6_size": "16px",
+        "body_font": "Google_Work+Sans_400_sans",
+        "body_font_size": "14px",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_pinterest_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": "",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "center",
+                    "logo": "",
+                    "header_main_menu": "main-menu",
+                    "header_secondary_menu": "main-menu",
+                    "show_top_bar": true,
+                    "top_bar_text": "Announce something here",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": "5000",
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "best selling products",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "featured_categories": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "Sub-Heading",
+                    "title": "featured categories",
+                    "ft_cat_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, deleniti.",
+                    "ft_cat_sub_heading_color": "#9b9b9",
+                    "ft_cat_text_color": "#4C4C4C",
+                    "ft_cat_1": "",
+                    "ft_cat_2": "",
+                    "ft_cat_3": "",
+                    "ft_cat_4": "",
+                    "ft_cat_show_category_label": true
+                }
+            },
+            "featured_products": {
+                "type": "featured-products",
+                "disabled": true,
+                "settings": {
+                    "ft_product_limits": 3
+                }
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+					"title": "Custom HTML",
+                    "code": "<h2>Lorem<\/h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>",
+                    "enable_full_width": false
+                }
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+					"title": "Image with text",
+                    "image": "",
+                    "layout_grid": "half_right_text",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo distinctio unde recusandae fuga dolores in fugit tempore doloribus deserunt modi illo expedita illum, facere numquam voluptatibus dolorem ipsam aliquam veniam?"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "",
+                    "footer_menu_title_1": "our stores",
+                    "footer_menu_1": "",
+                    "footer_menu_title_2": "information",
+                    "footer_menu_2": "",
+                    "footer_menu_title_3": "useful links",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "about the store",
+                    "footer_menu_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quas quidem ullam fugiat.",
+                    "footer_address": "100 Street, City, State, Country",
+                    "footer_phone": "Phone: (000) 000-0000",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "featured_categories",
+            "best_selling_products",
+            "featured_products",
+            "custom_html",
+            "image_with_text"
+        ]
+    }
+}

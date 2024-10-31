@@ -1,0 +1,454 @@
+{
+    "name": "Adler",
+    "version": "2.5.0",
+    "meta": {
+        "author_name": "Aidantz AppMedia",
+        "author_url": "#",
+        "author_email": "support@aidantz.com",
+        "description": "Ideal for a wide range of businesses and brands, this design is fully responsive, simple, and ready for you to add your branding, logo, and products.",
+        "desktop_screenshot": "desktop.jpg",
+        "mobile_screenshot": "",
+        "features": [
+            "Fully responsive",
+            "Social media icons",
+            "Product quickview",
+            "3 header styles",
+            "customizable sections",
+            "Free theme updates"
+        ]
+    },
+    "current": {
+        "header_color": "#000000",
+        "header_color_bg": "#FFFCFC",
+        "accent_color": "#FFFFFF",
+        "body_color": "#292b2c",
+        "button_bg_color": "#2E2E2E",
+        "button_color": "#fff",
+        "body_bg_color": "#fff",
+        "header_bar_color": "#FFFFFF",
+        "footer_bg_color": "#000",
+        "footer_title_color": "#fff",
+        "footer_text_color": "#fff",
+        "h1_font": "Google_Work+Sans_400_sans",
+        "h2_font": "Google_Work+Sans_400_sans",
+        "h3_font": "Google_Work+Sans_400_sans",
+        "h4_font": "Google_Work+Sans_400_sans",
+        "h5_font": "Google_Work+Sans_400_sans",
+        "h6_font": "Google_Work+Sans_400_sans",
+        "h1_size": "26px",
+        "h2_size": "32px",
+        "h3_size": "28px",
+        "h4_size": "24px",
+        "h5_size": "20px",
+        "h6_size": "16px",
+        "body_font": "Google_Work+Sans_400_sans",
+        "body_font_size": "14px",
+        "social_twitter_link": "",
+        "social_facebook_link": "https:\/\/www.facebook.com\/wearenavigatorsatsea\/",
+        "social_pinterest_link": "",
+        "social_instagram_link": "https:\/\/www.instagram.com\/wearenavigatorsatsea\/",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": "",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "left",
+                    "logo": "ghgg.jpg",
+                    "header_main_menu": "our-story",
+                    "header_secondary_menu": "our-story",
+                    "show_top_bar": false,
+                    "top_bar_text": "Announce something here",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": false
+                }
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": true,
+                "settings": {
+                    "title": "Our Best Sellers",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": "captain-s-mug"
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": "navigators-brass-key-chain"
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+                    "title": "Image with text",
+                    "image": "image-1.jpg",
+                    "layout_grid": "half_right_text",
+                    "text": "<p>Started as a community for all the seafarers out there, connecting them through Facebook, <strong>We Are Navigators&nbsp;<\/strong>first set sail in 2010. Gaining many enthusiasts in love with the sea, we decided to give you a taste of the sea and all its wonders by creating mementos that last a lifetime.&nbsp;<\/p><p>Buy yourself or your loved ones a gift to treasure forever from <strong>We Are Navigators<\/strong> and experience a swift shipping and friendly customer&nbsp;service which will keep you coming back for more!<br><strong><\/strong><\/p>"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "picture4.jpg",
+                    "footer_menu_title_1": "about",
+                    "footer_menu_1": "",
+                    "footer_menu_title_2": "",
+                    "footer_menu_2": "",
+                    "footer_menu_title_3": "",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "Contact Us",
+                    "footer_menu_text": "The destination for all seafarers to shop their favorite mementos of sea",
+                    "footer_address": "99 B\/2 , Harbour View Appartment, 16th Lane, College Street, Colombo 13.",
+                    "footer_phone": "+94 719 44 00 77",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            },
+            "newsletter": {
+                "type": "newsletter",
+                "disabled": false,
+                "settings": {
+                    "newsletter_bg": "slide-3.jpg",
+                    "newsletter_sub_heading": "Join the Crew!",
+                    "title": "Newsletter Heading",
+                    "newsletter_text": "Become a part of our crew to enjoy the news of the seamen while receiving amazing discounts and more!",
+                    "newsletter_form_action": "https:\/\/aidantz.us16.list-manage.com\/subscribe\/post?u=65544a59a0e0952217644967b&amp;id=0d45eafcc3"
+                }
+            },
+            "757551396435": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "Explore Our Products",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-2": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-3": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-4": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-5": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-6": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-7": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-8": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1",
+                    "product-2",
+                    "product-3",
+                    "product-4",
+                    "product-5",
+                    "product-6",
+                    "product-7",
+                    "product-8"
+                ]
+            },
+            "627787324422": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "For the seafarer in you",
+                    "title": "We Are Navigators",
+                    "ft_cat_text": "Ever since the birth of humankind, we have been enchanted by the sea. Let us give you everlasting mementos to treasure the memory of the sea with your loved ones.",
+                    "ft_cat_sub_heading_color": "#0340B4",
+                    "ft_cat_text_color": "#04674E",
+                    "ft_cat_1": "",
+                    "ft_cat_1_img": "2914998-0.jpg",
+                    "ft_cat_2": "",
+                    "ft_cat_2_img": "616o9fqndil-uy395.jpg",
+                    "ft_cat_3": "",
+                    "ft_cat_3_img": "nt2990-nauticalia-hms-victory-in-a-bottle-495x495.jpg",
+                    "ft_cat_4": "",
+                    "ft_cat_4_img": "2017-new-summer-funny-cool-style-sail-a-smooth-sea-never-made-killer-sailor-printed-tjpg-640x640.jpg",
+                    "ft_cat_show_category_label": false
+                }
+            },
+            "782216307799": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": 5000,
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "slideshow-0": {
+                        "type": "image",
+                        "settings": {
+                            "image": "picture2.jpg",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-1": {
+                        "type": "image",
+                        "settings": {
+                            "image": "picture1.jpg",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-3": {
+                        "type": "image",
+                        "settings": {
+                            "image": "picture4.png",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "slideshow-0",
+                    "slideshow-1",
+                    "slideshow-3"
+                ]
+            }
+        },
+        "content_for_index": [
+            782216307799,
+            627787324422,
+            "image_with_text",
+            "best_selling_products",
+            "newsletter",
+            757551396435
+        ]
+    },
+    "default": {
+        "header_color": "#2E2E2E",
+        "header_color_bg": "#ffffff",
+        "accent_color": "#2E2E2E",
+        "body_color": "#292b2c",
+        "button_bg_color": "#2E2E2E",
+        "button_color": "#fff",
+        "body_bg_color": "#fff",
+        "header_bar_color": "#fff",
+        "footer_bg_color": "#000",
+        "footer_title_color": "#fff",
+        "footer_text_color": "#fff",
+        "h1_font": "Google_Work+Sans_400_sans",
+        "h2_font": "Google_Work+Sans_400_sans",
+        "h3_font": "Google_Work+Sans_400_sans",
+        "h4_font": "Google_Work+Sans_400_sans",
+        "h5_font": "Google_Work+Sans_400_sans",
+        "h6_font": "Google_Work+Sans_400_sans",
+        "h1_size": "40px",
+        "h2_size": "32px",
+        "h3_size": "28px",
+        "h4_size": "24px",
+        "h5_size": "20px",
+        "h6_size": "16px",
+        "body_font": "Google_Work+Sans_400_sans",
+        "body_font_size": "14px",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_pinterest_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": "",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "center",
+                    "logo": "",
+                    "header_main_menu": "",
+                    "header_secondary_menu": "",
+                    "show_top_bar": true,
+                    "top_bar_text": "Announce something here",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": "5000",
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "best selling products",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "featured_categories": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "Sub-Heading",
+                    "title": "featured categories",
+                    "ft_cat_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, deleniti.",
+                    "ft_cat_sub_heading_color": "#9b9b9",
+                    "ft_cat_text_color": "#4C4C4C",
+                    "ft_cat_1": "",
+                    "ft_cat_1_img": "",
+                    "ft_cat_2": "",
+                    "ft_cat_2_img": "",
+                    "ft_cat_3": "",
+                    "ft_cat_3_img": "",
+                    "ft_cat_4": "",
+                    "ft_cat_4_img": "",
+                    "ft_cat_show_category_label": true
+                }
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "Custom HTML",
+                    "code": "<h2>Lorem<\/h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>",
+                    "enable_full_width": false
+                }
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+                    "title": "Image with text",
+                    "image": "",
+                    "layout_grid": "half_right_text",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo distinctio unde recusandae fuga dolores in fugit tempore doloribus deserunt modi illo expedita illum, facere numquam voluptatibus dolorem ipsam aliquam veniam?"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "",
+                    "footer_menu_title_1": "our stores",
+                    "footer_menu_1": "",
+                    "footer_menu_title_2": "information",
+                    "footer_menu_2": "",
+                    "footer_menu_title_3": "useful links",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "about the store",
+                    "footer_menu_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quas quidem ullam fugiat.",
+                    "footer_address": "100 Street, City, State, Country",
+                    "footer_phone": "Phone: (000) 000-0000",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "featured_categories",
+            "best_selling_products",
+            "custom_html",
+            "image_with_text"
+        ]
+    }
+}

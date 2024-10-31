@@ -1,0 +1,1 @@
+<div class="col-lg-6">{!! $section['settings']['content'] !!}</div>

@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700');
+   
+#my-account{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+}
+.opensans {
+   font-family: 'Open Sans Condensed', sans-serif;
+}
+.profile-card {
+    position: relative;
+}
+.profile-card img {
+    border: dashed black 1px;       
+}
+.profile-upload {
+    position: absolute;
+    bottom: -15px;
+    left: 41px;
+    right: auto;
+    font-weight: 600;
+}
+.profile-upload i {
+    font-size: 19px;  
+}
+.profile-info h5 {
+    margin-top: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+.profile-info h6 {
+   font-family: 'Open Sans Condensed', sans-serif;
+}
+.profile-hr {
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+.profile-stats {
+     margin-bottom: 25px;          
+}
+.stats-card {
+    background-color: #f2f2f2;
+    padding: 15px 10px 5px 10px;
+   
+}
+.stats-card h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+}
+.stats-card h6 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.form-control {
+    padding: 0px 0px 0px 5px;
+}
+.sub-heading {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.custom-file-control-new {
+	padding: 0 !important;
+background: transparent !important;
+border: none !important;
+position: relative;
+right: 11px;
+top: 5px;
+}

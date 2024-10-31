@@ -1,0 +1,408 @@
+{
+    "name": "Adler",
+    "version": "2.5.0",
+    "meta": {
+        "author_name": "Aidantz AppMedia",
+        "author_url": "#",
+        "author_email": "support@aidantz.com",
+        "description": "Ideal for a wide range of businesses and brands, this design is fully responsive, simple, and ready for you to add your branding, logo, and products.",
+        "desktop_screenshot": "desktop.jpg",
+        "mobile_screenshot": "",
+        "features": [
+            "Fully responsive",
+            "Social media icons",
+            "Product quickview",
+            "3 header styles",
+            "customizable sections",
+            "Free theme updates"
+        ]
+    },
+    "current": {
+        "header_color": "#077A31",
+        "header_color_bg": "rgba(255, 255, 255, 0)",
+        "accent_color": "#9DC110",
+        "body_color": "#0F0F0F",
+        "button_bg_color": "#2E2E2E",
+        "button_color": "rgba(246, 17, 17, 0.51)",
+        "body_bg_color": "rgba(255, 255, 255, 0)",
+        "header_bar_color": "#FFFFFF",
+        "footer_bg_color": "rgba(255, 255, 255, 0)",
+        "footer_title_color": "#088D29",
+        "footer_text_color": "#131313",
+        "h1_font": "Google_Work+Sans_400_sans",
+        "h2_font": "Google_Work+Sans_400_sans",
+        "h3_font": "Google_Work+Sans_400_sans",
+        "h4_font": "Google_Work+Sans_400_sans",
+        "h5_font": "Google_Work+Sans_400_sans",
+        "h6_font": "Google_Work+Sans_400_sans",
+        "h1_size": "40px",
+        "h2_size": "40px",
+        "h3_size": "40px",
+        "h4_size": "40px",
+        "h5_size": "40px",
+        "h6_size": "40px",
+        "body_font": "Google_Work+Sans_400_sans",
+        "body_font_size": "14px",
+        "social_twitter_link": "",
+        "social_facebook_link": "Best Paper",
+        "social_pinterest_link": "",
+        "social_instagram_link": "BEST PAPER",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": "",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "center",
+                    "logo": "fullsizerender-copy-logo-474270331.jpg",
+                    "header_main_menu": "menu-2",
+                    "header_secondary_menu": "main-menu",
+                    "show_top_bar": true,
+                    "top_bar_text": "Now Shop Online &  Get Delivery At Your Door Step!!!",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": 5000,
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "best selling products",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": "ivory-art-card"
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": "clipboard-with-pen-yosogo"
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "featured_categories": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "www.bestpaper.lk",
+                    "title": "Shinhan art",
+                    "ft_cat_text": "Proud to introduce world class ARTISTIC PAINTS and TOUCH MARKERS now in SRI LANKA.....",
+                    "ft_cat_sub_heading_color": "#0B0B0B",
+                    "ft_cat_text_color": "#000000",
+                    "ft_cat_1": "touch-brush-marker",
+                    "ft_cat_1_img": "twin.png",
+                    "ft_cat_2": "pwc-extra-fine-water-colour",
+                    "ft_cat_2_img": "pwc.jpg",
+                    "ft_cat_3": "oil-paint-colour",
+                    "ft_cat_3_img": "oil-final.jpg",
+                    "ft_cat_4": "",
+                    "ft_cat_4_img": "5-colors.jpg",
+                    "ft_cat_show_category_label": false
+                }
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": true,
+                "settings": {
+                    "title": "sizzix - our technologies",
+                    "code": "We offer a wide range of dies and embossing folders, with something for everyone all year round...",
+                    "enable_full_width": false
+                }
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+                    "title": "exploring sizzix dies and embossing folders",
+                    "image": "sizzix.png",
+                    "layout_grid": "one_third_right_image",
+                    "text": "<ul><li>Card Making<\/li><li>Fashion Accessories<\/li><li>Felt<\/li><li>Home Sewn<\/li><li>Home Decor<\/li><li>Paper Craft<\/li><li>Scrap-booking<\/li><li>Emboss<\/li><li>Tags<\/li><\/ul>"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "logo111jpg.jpg",
+                    "footer_menu_title_1": "",
+                    "footer_menu_1": "",
+                    "footer_menu_title_2": "information",
+                    "footer_menu_2": "menu-2",
+                    "footer_menu_title_3": "useful links",
+                    "footer_menu_3": "menu-3",
+                    "footer_menu_title_4": "about the store",
+                    "footer_menu_text": "Offset Printing Paper ,Paper Boards ,Printers Requisites Specialists in Colour ,Metallic, Luminous Paper, Board & Sticker,School & Office Stationery...",
+                    "footer_address": "No.21 ,Pepiliyana Road,Nugegoda.",
+                    "footer_phone": "011-2826665\/2826661                                                                                                                                                                fax :011-2826669",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            },
+            "newsletter": {
+                "type": "newsletter",
+                "disabled": true,
+                "settings": {
+                    "newsletter_bg": "",
+                    "newsletter_sub_heading": "Subheading goes here",
+                    "newsletter_heading": "Newsletter Heading",
+                    "newsletter_text": "Hey you, sign up it only takes a second to be the first to find out about our latest news and promotions\u2026",
+                    "newsletter_form_action": "https:\/\/aidantz.us16.list-manage.com\/subscribe\/post?u=65544a59a0e0952217644967b&amp;id=0d45eafcc3"
+                }
+            },
+            "600158950090": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": 2250,
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "slideshow-0": {
+                        "type": "image",
+                        "settings": {
+                            "image": "img-20191230-wa0000.jpg",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "slideshow-0"
+                ]
+            }
+        },
+        "content_for_index": [
+            600158950090,
+            "custom_html",
+            "image_with_text",
+            "featured_categories",
+            "best_selling_products",
+            "newsletter"
+        ]
+    },
+    "default": {
+        "header_color": "#000000e6",
+        "header_color_bg": "#ffffff",
+        "accent_color": "#2E2E2E",
+        "body_color": "#292b2c",
+        "button_bg_color": "#fff",
+        "button_color": "#fff",
+        "body_bg_color": "#fff",
+        "header_bar_color": "#fff",
+        "footer_bg_color": "#000",
+        "footer_title_color": "#fff",
+        "footer_text_color": "#fff",
+        "h1_font": "Google_Work+Sans_400_sans",
+        "h2_font": "Google_Work+Sans_400_sans",
+        "h3_font": "Google_Work+Sans_400_sans",
+        "h4_font": "Google_Work+Sans_400_sans",
+        "h5_font": "Google_Work+Sans_400_sans",
+        "h6_font": "Google_Work+Sans_400_sans",
+        "h1_size": "40px",
+        "h2_size": "32px",
+        "h3_size": "28px",
+        "h4_size": "24px",
+        "h5_size": "20px",
+        "h6_size": "16px",
+        "body_font": "Google_Work+Sans_400_sans",
+        "body_font_size": "14px",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_pinterest_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": "",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "center",
+                    "logo": "",
+                    "header_main_menu": "main-menu",
+                    "header_secondary_menu": "main-menu",
+                    "show_top_bar": true,
+                    "top_bar_text": "Announce something here",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": "5000",
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "best selling products",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "featured_categories": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "Sub-Heading",
+                    "title": "featured categories",
+                    "ft_cat_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, deleniti.",
+                    "ft_cat_sub_heading_color": "#9b9b9",
+                    "ft_cat_text_color": "#4C4C4C",
+                    "ft_cat_1": "",
+                    "ft_cat_1_img": "",
+                    "ft_cat_2": "",
+                    "ft_cat_2_img": "",
+                    "ft_cat_3": "",
+                    "ft_cat_3_img": "",
+                    "ft_cat_4": "",
+                    "ft_cat_4_img": "",
+                    "ft_cat_show_category_label": true
+                }
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "Custom HTML",
+                    "code": "<h2>Lorem<\/h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>",
+                    "enable_full_width": false
+                }
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+                    "title": "Image with text",
+                    "image": "",
+                    "layout_grid": "half_right_text",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo distinctio unde recusandae fuga dolores in fugit tempore doloribus deserunt modi illo expedita illum, facere numquam voluptatibus dolorem ipsam aliquam veniam?"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "",
+                    "footer_menu_title_1": "our stores",
+                    "footer_menu_1": "",
+                    "footer_menu_title_2": "information",
+                    "footer_menu_2": "",
+                    "footer_menu_title_3": "useful links",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "about the store",
+                    "footer_menu_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quas quidem ullam fugiat.",
+                    "footer_address": "100 Street, City, State, Country",
+                    "footer_phone": "Phone: (000) 000-0000",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            },
+            "featured_products": {
+                "type": "featured-products",
+                "disabled": true,
+                "settings": {
+                    "ft_product_limits": 3
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "featured_categories",
+            "best_selling_products",
+            "featured_products",
+            "custom_html",
+            "image_with_text"
+        ]
+    }
+}

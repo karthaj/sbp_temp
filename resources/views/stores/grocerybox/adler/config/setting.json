@@ -1,0 +1,667 @@
+{
+    "name": "Adler",
+    "version": "2.6.1",
+    "meta": {
+        "author_name": "Aidantz AppMedia",
+        "author_url": "#",
+        "author_email": "support@aidantz.com",
+        "description": "Ideal for a wide range of businesses and brands, this design is fully responsive, simple, and ready for you to add your branding, logo, and products.",
+        "desktop_screenshot": "desktop.jpg",
+        "mobile_screenshot": "",
+        "features": [
+            "Fully responsive",
+            "Social media icons",
+            "Product quickview",
+            "3 header styles",
+            "customizable sections",
+            "Free theme updates"
+        ]
+    },
+    "current": {
+        "header_color": "#F10606",
+        "header_color_bg": "#ffffff",
+        "accent_color": "#FF0000",
+        "body_color": "#FA0505",
+        "button_bg_color": "#292525",
+        "button_color": "#F9F8F8",
+        "body_bg_color": "#fff",
+        "header_bar_color": "#fff",
+        "footer_bg_color": "#000",
+        "footer_title_color": "#fff",
+        "footer_text_color": "#EF0B0B",
+        "h1_font": "Google_Montserrat_400_sans",
+        "h2_font": "Google_Montserrat_400_sans",
+        "h3_font": "Google_Montserrat_400_sans",
+        "h4_font": "Google_Montserrat_400_sans",
+        "h5_font": "Google_Montserrat_400_sans",
+        "h6_font": "Google_Montserrat_400_sans",
+        "h1_size": "40px",
+        "h2_size": "32px",
+        "h3_size": "28px",
+        "h4_size": "24px",
+        "h5_size": "20px",
+        "h6_size": "16px",
+        "body_font": "Google_Montserrat_400_sans",
+        "body_font_size": "14px",
+        "social_twitter_link": "",
+        "social_facebook_link": "https:\/\/www.facebook.com\/grocerybox.lk\/",
+        "social_pinterest_link": "",
+        "social_instagram_link": "https:\/\/www.instagram.com\/grocerybox.lk\/",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": "",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "center",
+                    "logo": "grocery-box-logo-big.",
+                    "header_main_menu": "",
+                    "header_secondary_menu": "main-menu",
+                    "show_top_bar": false,
+                    "top_bar_text": "",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "",
+                    "footer_menu_title_1": "",
+                    "footer_menu_1": "",
+                    "footer_menu_title_2": "",
+                    "footer_menu_2": "",
+                    "footer_menu_title_3": "",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "about the store",
+                    "footer_menu_text": "Near Jawatta KFC",
+                    "footer_address": "No.14A Don carolis road colombo 05",
+                    "footer_phone": "Phone: 077-106 34 94",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            },
+            "652672084347": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "Orders  will be delivered Sunday 26th April within the day",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "132798857": {
+                        "type": "product",
+                        "settings": {
+                            "product": "dilmah-premium-100s-tea-bag"
+                        }
+                    },
+                    "847313113": {
+                        "type": "product",
+                        "settings": {
+                            "product": "anchor-pedia-pro-12-400g"
+                        }
+                    },
+                    "1130573476": {
+                        "type": "product",
+                        "settings": {
+                            "product": "gourmet-lanka-sourdough-bread-400g"
+                        }
+                    },
+                    "1226206433": {
+                        "type": "product",
+                        "settings": {
+                            "product": "oceans-best-barramundi-fish-without-skin-1kg"
+                        }
+                    },
+                    "1555725664": {
+                        "type": "product",
+                        "settings": {
+                            "product": "butterfly-belle-weekender-duffle-bag"
+                        }
+                    },
+                    "1854826681": {
+                        "type": "product",
+                        "settings": {
+                            "product": "movenpick-swiss-chocolate-70g"
+                        }
+                    },
+                    "2261988940": {
+                        "type": "product",
+                        "settings": {
+                            "product": "ratthi-milk-powder-pouch-400g"
+                        }
+                    },
+                    "3426536333": {
+                        "type": "product",
+                        "settings": {
+                            "product": "champs-spices-set-of-4-bundle-package"
+                        }
+                    },
+                    "3435376518": {
+                        "type": "product",
+                        "settings": {
+                            "product": "anchor-butter-227g-only-1-per-transaction"
+                        }
+                    },
+                    "3997206818": {
+                        "type": "product",
+                        "settings": {
+                            "product": "mvenpick-stirred-yogurt-strawberry"
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": "boneless-lamb-leg-avg-25kg-per-1-kg-lkr-3650"
+                        }
+                    },
+                    "product-3": {
+                        "type": "product",
+                        "settings": {
+                            "product": "bega-cheese-108-slices"
+                        }
+                    },
+                    "product-6": {
+                        "type": "product",
+                        "settings": {
+                            "product": "banno-xl-basmati-rice-1kg"
+                        }
+                    },
+                    "product-7": {
+                        "type": "product",
+                        "settings": {
+                            "product": "fragata-extra-virgin-olive-oil-1l"
+                        }
+                    },
+                    "8895708822": {
+                        "type": "product",
+                        "settings": {
+                            "product": "palatina-mozzarella-2kg"
+                        }
+                    },
+                    "6675798335": {
+                        "type": "product",
+                        "settings": {
+                            "product": "flora-2-ply-tissue25-rolls-1-pack-per-transaction"
+                        }
+                    },
+                    "5817803561": {
+                        "type": "product",
+                        "settings": {
+                            "product": "smoked-norwegian-salmon-average-1kg"
+                        }
+                    },
+                    "4751840045": {
+                        "type": "product",
+                        "settings": {
+                            "product": "kean-orange-juice-1l"
+                        }
+                    },
+                    "6100481438": {
+                        "type": "product",
+                        "settings": {
+                            "product": "dilmah-red-rooibos-mango-ginger-turmeric-blackpepper-20s-tea-bag"
+                        }
+                    },
+                    "6226050624": {
+                        "type": "product",
+                        "settings": {
+                            "product": "nestle-nan-06-months-350g-only-1-pack-1transaction"
+                        }
+                    },
+                    "5458151578": {
+                        "type": "product",
+                        "settings": {
+                            "product": "nestle-cerelac-with-red-rice-250g"
+                        }
+                    },
+                    "6393951419": {
+                        "type": "product",
+                        "settings": {
+                            "product": "beaufour-hot-english-mustard-200g"
+                        }
+                    },
+                    "9491779603": {
+                        "type": "product",
+                        "settings": {
+                            "product": "thuringia-bratwurst-chicken-sausages-250g"
+                        }
+                    },
+                    "9635219481": {
+                        "type": "product",
+                        "settings": {
+                            "product": "di-martino-tortiglioni-pasta-500g"
+                        }
+                    },
+                    "8086457114": {
+                        "type": "product",
+                        "settings": {
+                            "product": "chicken-lasagna-gourmet-lanka"
+                        }
+                    },
+                    "7665018585": {
+                        "type": "product",
+                        "settings": {
+                            "product": "wang-fu-mint-sauce-185g"
+                        }
+                    },
+                    "9530078375": {
+                        "type": "product",
+                        "settings": {
+                            "product": "anchor-extra-whip-whipping-cream-1l"
+                        }
+                    },
+                    "7939622990": {
+                        "type": "product",
+                        "settings": {
+                            "product": "post-blueberry-morning-cereal-382g"
+                        }
+                    },
+                    "6347573682": {
+                        "type": "product",
+                        "settings": {
+                            "product": "fried-prawn-dumplings-24-pieces-pack"
+                        }
+                    },
+                    "4772461281": {
+                        "type": "product",
+                        "settings": {
+                            "product": "heavy-duty-black-garbage-bags-10-pack-h-85cm-x-w-48cm"
+                        }
+                    },
+                    "6898406615": {
+                        "type": "product",
+                        "settings": {
+                            "product": "hosen-fruits-cocktail-825g"
+                        }
+                    },
+                    "8728169756": {
+                        "type": "product",
+                        "settings": {
+                            "product": "anchor-shredded-mozzarella-cheese-2kg"
+                        }
+                    }
+                },
+                "block_order": [
+                    3435376518,
+                    8728169756,
+                    5817803561,
+                    "product-6",
+                    4751840045,
+                    8895708822,
+                    7665018585,
+                    1555725664,
+                    "product-3",
+                    "product-1",
+                    6675798335,
+                    "product-7",
+                    1130573476,
+                    1226206433,
+                    6100481438,
+                    132798857,
+                    6898406615,
+                    2261988940,
+                    3426536333,
+                    4772461281,
+                    6226050624,
+                    5458151578,
+                    6393951419,
+                    847313113,
+                    9491779603,
+                    9635219481,
+                    3997206818,
+                    1854826681,
+                    8086457114,
+                    9530078375,
+                    7939622990,
+                    6347573682
+                ]
+            },
+            "342396880687": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "",
+                    "title": "See our collection of Meats, Sausages and Seafood.",
+                    "ft_cat_text": "We pack all our meats into freezer bags for delivery. Fresh meats delivered safely to your doorstep.",
+                    "ft_cat_sub_heading_color": "#9b9b9",
+                    "ft_cat_text_color": "#4C4C4C",
+                    "ft_cat_1": "sausages",
+                    "ft_cat_1_img": "2.png",
+                    "ft_cat_2": "meat-sea-food",
+                    "ft_cat_2_img": "9.png",
+                    "ft_cat_3": "meat",
+                    "ft_cat_3_img": "grocery-box-category-images-1.png",
+                    "ft_cat_4": "meat",
+                    "ft_cat_4_img": "grocery-box-category-images-2.png",
+                    "ft_cat_show_category_label": true
+                }
+            },
+            "786591658816": {
+                "type": "image-with-text",
+                "disabled": true,
+                "settings": {
+                    "title": "Dynasty Tea",
+                    "image": "71cbfqajql-sl1500.jpg",
+                    "layout_grid": "half_right_text",
+                    "text": "<p>Dynasty Tea is highly exotic with unique blends. They are 100% ceylon and we are happy to be partnering with this local business at Grocery Box Lk.<\/p>"
+                }
+            },
+            "598172305256": {
+                "type": "image-with-text",
+                "disabled": true,
+                "settings": {
+                    "title": "Dynasty Tea",
+                    "image": "71cbfqajql-sl1500.jpg",
+                    "layout_grid": "half_right_text",
+                    "text": "<p>Dynasty Tea is highly exotic with unique blends. They are 100% ceylon and we are happy to be partnering with this local business at Grocery Box Lk.<\/p>"
+                }
+            },
+            "486297985558": {
+                "type": "image-with-text",
+                "disabled": true,
+                "settings": {
+                    "title": "Dynasty Tea",
+                    "image": "71cbfqajql-sl1500.jpg",
+                    "layout_grid": "half_right_text",
+                    "text": "<p>Dynasty Tea is highly exotic with unique blends. They are 100% ceylon and we are happy to be partnering with this local business at Grocery Box Lk.<\/p>"
+                }
+            },
+            "566318454697": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": "2000",
+                    "slider_animation": "slide"
+                },
+                "blocks": {
+                    "2004009896": {
+                        "type": "image",
+                        "settings": {
+                            "image": "gblk-baguette.png",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-0": {
+                        "type": "image",
+                        "settings": {
+                            "image": "1.png",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-1": {
+                        "type": "image",
+                        "settings": {
+                            "image": "6.png",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-2": {
+                        "type": "image",
+                        "settings": {
+                            "image": "gblk-doorimage-groceries.",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-4": {
+                        "type": "image",
+                        "settings": {
+                            "image": "gblk-lamb.png",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "slideshow-0",
+                    "slideshow-1",
+                    "slideshow-2",
+                    "slideshow-4",
+                    2004009896
+                ]
+            },
+            "997941767763": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": "2000",
+                    "slider_animation": "slide"
+                },
+                "blocks": {
+                    "2004009896": {
+                        "type": "image",
+                        "settings": {
+                            "image": "gblk-baguette.png",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-0": {
+                        "type": "image",
+                        "settings": {
+                            "image": "1.png",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-1": {
+                        "type": "image",
+                        "settings": {
+                            "image": "6.png",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-2": {
+                        "type": "image",
+                        "settings": {
+                            "image": "gblk-doorimage-groceries.",
+                            "link": ""
+                        }
+                    },
+                    "slideshow-4": {
+                        "type": "image",
+                        "settings": {
+                            "image": "gblk-lamb.png",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "slideshow-0",
+                    "slideshow-1",
+                    "slideshow-2",
+                    "slideshow-4",
+                    2004009896
+                ]
+            }
+        },
+        "content_for_index": [
+            342396880687,
+            652672084347,
+            786591658816,
+            598172305256,
+            486297985558,
+            "566318454697",
+            "997941767763"
+        ]
+    },
+    "default": {
+        "header_color": "#2E2E2E",
+        "header_color_bg": "#ffffff",
+        "accent_color": "#2E2E2E",
+        "body_color": "#292b2c",
+        "button_bg_color": "#2E2E2E",
+        "button_color": "#fff",
+        "body_bg_color": "#fff",
+        "header_bar_color": "#fff",
+        "footer_bg_color": "#000",
+        "footer_title_color": "#fff",
+        "footer_text_color": "#fff",
+        "h1_font": "Google_Work+Sans_400_sans",
+        "h2_font": "Google_Work+Sans_400_sans",
+        "h3_font": "Google_Work+Sans_400_sans",
+        "h4_font": "Google_Work+Sans_400_sans",
+        "h5_font": "Google_Work+Sans_400_sans",
+        "h6_font": "Google_Work+Sans_400_sans",
+        "h1_size": "40px",
+        "h2_size": "32px",
+        "h3_size": "28px",
+        "h4_size": "24px",
+        "h5_size": "20px",
+        "h6_size": "16px",
+        "body_font": "Google_Work+Sans_400_sans",
+        "body_font_size": "14px",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_pinterest_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": "",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "center",
+                    "logo": "",
+                    "header_main_menu": "",
+                    "header_secondary_menu": "",
+                    "show_top_bar": true,
+                    "top_bar_text": "Announce something here",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": "5000",
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "best selling products",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "featured_categories": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "Sub-Heading",
+                    "title": "featured categories",
+                    "ft_cat_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, deleniti.",
+                    "ft_cat_sub_heading_color": "#9b9b9",
+                    "ft_cat_text_color": "#4C4C4C",
+                    "ft_cat_1": "",
+                    "ft_cat_1_img": "",
+                    "ft_cat_2": "",
+                    "ft_cat_2_img": "",
+                    "ft_cat_3": "",
+                    "ft_cat_3_img": "",
+                    "ft_cat_4": "",
+                    "ft_cat_4_img": "",
+                    "ft_cat_show_category_label": true
+                }
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "Custom HTML",
+                    "code": "<h2>Lorem<\/h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>",
+                    "enable_full_width": false
+                }
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+                    "title": "Image with text",
+                    "image": "",
+                    "layout_grid": "half_right_text",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo distinctio unde recusandae fuga dolores in fugit tempore doloribus deserunt modi illo expedita illum, facere numquam voluptatibus dolorem ipsam aliquam veniam?"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "",
+                    "footer_menu_title_1": "our stores",
+                    "footer_menu_1": "",
+                    "footer_menu_title_2": "information",
+                    "footer_menu_2": "",
+                    "footer_menu_title_3": "useful links",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "about the store",
+                    "footer_menu_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quas quidem ullam fugiat.",
+                    "footer_address": "100 Street, City, State, Country",
+                    "footer_phone": "Phone: (000) 000-0000",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "featured_categories",
+            "best_selling_products",
+            "custom_html",
+            "image_with_text"
+        ]
+    }
+}

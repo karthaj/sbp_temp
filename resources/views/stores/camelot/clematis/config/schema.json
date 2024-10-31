@@ -1,0 +1,230 @@
+[
+  {
+    "name": "General",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Category Page"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_category_title",
+        "label": "Show category title"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_category_overlay",
+        "label": "Show category overlay"
+      },
+      {
+        "type": "select",
+        "id": "category_overlay_opacity",
+        "label": "Category overlay opacity",
+        "options": [
+          {"value": "0", "label": "0%"},
+          {"value": "15", "label": "15%"},
+          {"value": "30", "label": "30%"},
+          {"value": "50", "label": "50%"},
+          {"value": "70", "label": "70%"},
+          {"value": "100", "label": "100%"}
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Brand Page"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_brand_title",
+        "label": "Show brand title"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_brand_overlay",
+        "label": "Show brand overlay"
+      },
+      {
+        "type": "select",
+        "id": "brand_overlay_opacity",
+        "label": "Brand overlay opacity",
+        "options": [
+          {"value": "0", "label": "0%"},
+          {"value": "15", "label": "15%"},
+          {"value": "30", "label": "30%"},
+          {"value": "50", "label": "50%"},
+          {"value": "70", "label": "70%"},
+          {"value": "100", "label": "100%"}
+        ]
+      },
+      {
+        "type": "number",
+        "id": "new_tag_days",
+        "label": "No of days products to be marked as New"
+      }
+    ]
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "header",
+        "content": "General"
+      },
+      {
+        "type": "color",
+        "id": "accent_color",
+        "label": "Accent color"
+      },
+      {
+        "type": "color",
+        "id": "header_bg_color",
+        "label": "Header background color"
+      },
+      {
+        "type": "color",
+        "id": "header_text_color",
+        "label": "Header text color"
+      },
+      {
+        "type": "color",
+        "id": "nav_bg_color",
+        "label": "Secondary header background color"
+      },
+      {
+        "type": "color",
+        "id": "nav_text_color",
+        "label": "Secondary header text color"
+      },
+      {
+        "type": "color",
+        "id": "topbar_text_color",
+        "label": "Top bar text color"
+      },
+      {
+        "type": "color",
+        "id": "heading_color",
+        "label": "heading color"
+      },
+      {
+        "type": "color",
+        "id": "body_color",
+        "label": "Body color"
+      },
+      {
+        "type": "color",
+        "id": "body_bg_color",
+        "label": "Body background color"
+      },
+      {
+        "type": "color",
+        "id": "footer_bg_color",
+        "label": "Footer background color"
+      },
+      {
+        "type": "color",
+        "id": "footer_text_color",
+        "label": "Footer text color"
+      },
+      {
+        "type": "header",
+        "content": "Product"
+      },
+      {
+        "type": "color",
+        "id": "product_on_sale_accent",
+        "label": "On sale accent"
+      },
+      {
+        "type": "color",
+        "id": "product_sold_out_color",
+        "label": "Sold out"
+      },
+      {
+        "type": "color",
+        "id": "product_new_color",
+        "label": "New"
+      },
+      {
+        "type": "header",
+        "content": "Secondary button"
+      },
+      {
+        "type": "color",
+        "id": "btn_secondary_bg_color",
+        "label": "Background"
+      },
+      {
+        "type": "color",
+        "id": "btn_secondary_text_color",
+        "label": "Text"
+      }
+    ]
+  },
+  {
+    "name": "Contact page",
+    "settings": [
+      {
+        "type": "text",
+        "id": "contact_title",
+        "label": "Title"
+      }
+    ]
+  },
+  {
+    "name": "Social media",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Social accounts"
+      },
+      {
+        "type": "text",
+        "id": "social_twitter_link",
+        "label": "Twitter"
+      },
+      {
+        "type": "text",
+        "id": "social_facebook_link",
+        "label": "Facebook"
+      },
+      {
+        "type": "text",
+        "id": "social_instagram_link",
+        "label": "Instagram"
+      },
+      {
+        "type": "text",
+        "id": "social_youtube_link",
+        "label": "YouTube"
+      }
+    ]
+  },
+  {
+    "name": "Custom Code",
+    "settings": [
+      {
+        "type": "code",
+        "mode": "text/css",
+        "id": "custom_css",
+        "label": "Custom css"
+      }
+    ]
+  },
+  {
+    "name": "Currency",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "enable_multicurrency",
+        "label": "Enable currency conversion",
+        "info": "Even though prices are displayed in different currencies, orders will still be processed in your store's currency."
+      },
+      {
+        "type": "text",
+        "id": "currencies",
+        "label": "Supported currencies",
+        "info": "Use the country's ISO currency code. Separate your currency codes with a comma.By default your store currency will be included."
+      }
+    ]
+  }
+]

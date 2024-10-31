@@ -1,0 +1,173 @@
+[
+  {
+    "name": "Header",
+    "settings": [
+      {
+        "type": "radio",
+        "id": "header_style",
+        "label": "Header Style",
+        "options": [
+          {"value": "1", "label": "Header Style 1"},
+          {"value": "2", "label": "Header Style 2"},
+          {"value": "3", "label": "Header Style 3"}
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Layout",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "box_view",
+        "label": "Enable Box View"
+      }
+    ]
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "accent_color",
+        "label": "Accent color"
+      },
+      {
+        "type": "color",
+        "id": "body_color",
+        "label": "Body color"
+      },
+      {
+        "type": "color",
+        "id": "header_color",
+        "label": "Header text color"
+      },
+      {
+        "type": "color",
+        "id": "header_bg_color",
+        "label": "Header background color"
+      },
+      {
+        "type": "color",
+        "id": "footer_color",
+        "label": "Footer text color"
+      },
+      {
+        "type": "color",
+        "id": "footer_bg_color",
+        "label": "Footer background color"
+      }
+    ]
+  },
+  {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "font",
+        "id": "body_font",
+        "label": "Body Font"
+      },
+      {
+        "type": "header",
+        "content": "Promo Banner"
+      },
+      {
+        "type": "font",
+        "id": "promo_title_font",
+        "label": "Title Font"
+      },
+      {
+        "type": "font",
+        "id": "promo_subtitle_font",
+        "label": "Subtitle Font"
+      }
+    ]
+  },
+  {
+    "name": "Contact page",
+    "settings": [
+      {
+        "type": "text",
+        "id": "contact_title",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "id": "contact_address",
+        "label": "Address"
+      },
+      {
+        "type": "text",
+        "id": "contact_phone",
+        "label": "Phone"
+      },
+      {
+        "type": "text",
+        "id": "contact_email",
+        "label": "Email"
+      }
+    ]
+  },
+  {
+    "name": "Social media",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Social accounts"
+      },
+      {
+        "type": "text",
+        "id": "social_twitter_link",
+        "label": "Twitter"
+      },
+      {
+        "type": "text",
+        "id": "social_facebook_link",
+        "label": "Facebook"
+      },
+      {
+        "type": "text",
+        "id": "social_instagram_link",
+        "label": "Instagram"
+      },
+      {
+        "type": "text",
+        "id": "social_youtube_link",
+        "label": "YouTube"
+      },
+      {
+        "type": "text",
+        "id": "social_google_plus_link",
+        "label": "Google Plus"
+      }
+    ]
+  },
+  {
+    "name": "Custom Code",
+    "settings": [
+      {
+        "type": "code",
+        "mode": "text/css",
+        "id": "custom_css",
+        "label": "Custom css"
+      }
+    ]
+  },
+  {
+    "name": "Currency",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_multiple_currencies",
+        "label": "Enable currency conversion",
+        "info": "Even though prices are displayed in different currencies, orders will still be processed in your store's currency."
+      },
+      {
+        "type": "text",
+        "id": "supported_currencies",
+        "label": "Supported currencies",
+        "info": "Use the country's ISO currency code. Separate your currency codes with a comma.By default your store currency will be included."
+      }
+    ]
+  }
+]

@@ -1,0 +1,260 @@
+[
+	{
+		"name": "Slideshow",
+		"defaults": {
+	        "type": "slideshow",
+            "disabled": false,
+            "settings": {
+                "style": "default",
+                "autoplay": false,
+                "slide_show_speed": 5000
+            },
+            "blocks": {
+                "slideshow-0": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "show_overlay": true,
+                        "overlay_opacity": "50",
+                        "text_color": "#fff",
+                        "title": "Slide title",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                        "content_position": "center",
+                        "link": "#",
+                        "button_text": "Button"
+                    }
+                },
+                "slideshow-1": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "show_overlay": true,
+                        "overlay_opacity": "50",
+                        "text_color": "#fff",
+                        "title": "Slide title",
+                        "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                        "content_position": "center",
+                        "link": "#",
+                        "button_text": "Button"
+                    }
+                }
+            },
+            "block_order": [
+                "slideshow-0",
+                "slideshow-1"
+            ]
+	    }
+	},
+    {
+        "name": "Promotion Banners",
+        "defaults": {
+            "type": "promotion_banners",
+            "disabled": false,
+            "settings": {
+                "image": "",
+                "show_overlay": true,
+                "overlay_opacity": "50",
+                "text_color": "#fff",
+                "title": "Your title",
+                "button_text": "Button",
+                "button_link": "#"
+            }
+        }
+    },
+    {
+        "name": "Text with icons",
+        "defaults": {
+            "type": "text_with_icons",
+            "disabled": false,
+            "settings": {
+                "block_0_icon": "ti-gift",
+                "block_0_custom_icon": "",
+                "block_0_title": "Title here",
+                "block_0_content": "Lorem ipsum dolor sit amet",
+                "block_1_icon": "ti-wallet",
+                "block_1_custom_icon": "",
+                "block_1_title": "Title here",
+                "block_1_content": "Lorem ipsum dolor sit amet.",
+                "block_2_icon": "ti-headphone-alt",
+                "block_2_custom_icon": "",
+                "block_2_title": "Title here",
+                "block_2_content": "OLorem ipsum dolor sit amet."
+            }
+        }
+    },
+    {
+        "name": "Featured Categories",
+        "defaults": {
+            "type": "featured_categories",
+            "disabled": false,
+            "settings": {
+                "show_cat_title": true,
+                "ft_cat_1_img": "",
+                "ft_cat_1": "",
+                "ft_cat_2_img": "",
+                "ft_cat_2": "",
+                "ft_cat_3_img": "",
+                "ft_cat_3": "",
+                "ft_cat_4_img": "",
+                "ft_cat_4": ""
+            }
+        }
+    },
+    {
+        "name": "Featured Banner",
+        "defaults": {
+            "type": "featured_banner",
+            "disabled": false,
+            "settings": {
+                "image": "",
+                "show_overlay": true,
+                "overlay_opacity": "50",
+                "text_color": "#fff",
+                "title": "Your Heading Here",
+                "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit",
+                "content_position": "left",
+                "link": "#",
+                "button_text": "Button"
+            }
+        }
+    },
+    {
+        "name": "Featured Products",
+        "defaults": {
+            "type": "featured_products",
+            "disabled": false,
+            "settings": {
+               "category": "",
+                "products_limit": 8,
+                "layout": "horizontal",
+                "title": "Your Title",
+                "title2": "Lorem",
+                "content": "Cum doctus civibus efficiantur in imperdiet deterruisset"
+            }
+        }
+    },
+    {
+        "name": "Image with Text",
+        "defaults": {
+            "type": "image_with_text",
+            "disabled": false,
+            "settings": {
+               "image": "",
+                "image_position": "right",
+                "title": "Your title",
+                "content": "CUse this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store."
+            }
+        }
+    },
+    {
+        "name": "Logo list",
+        "defaults": {
+            "type": "logo_list",
+            "disabled": false,
+            "settings": {
+                "title": "Logo list",
+                "title2": "Lorem",
+                "sub_title": "Highlight brands, certifications or sponsors",
+                "bg_color": "#f8f8f8"
+            },
+            "blocks": {
+                "logo-0": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "link": ""
+                    }
+                },
+                "logo-1": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "link": ""
+                    }
+                },
+                "logo-2": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "link": ""
+                    }
+                },
+                "logo-3": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "link": ""
+                    }
+                },
+                "logo-4": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "link": ""
+                    }
+                },
+                "logo-5": {
+                    "type": "image",
+                    "settings": {
+                        "image": "",
+                        "link": ""
+                    }
+                }
+            },
+            "block_order": [
+                "logo-0",
+                "logo-1",
+                "logo-2",
+                "logo-3",
+                "logo-4",
+                "logo-5"
+            ]
+        }
+    },
+    {
+        "name": "Blog posts",
+        "defaults": {
+            "type": "blog_posts",
+            "disabled": false,
+            "settings": {
+                "title": "Blog posts",
+                "title2": "Lorem",
+                "sub_title": "Cum doctus civibus efficiantur in imperdiet deterruisset",
+                "post_limit": 4,
+                "show_author": true,
+                "show_date": true
+            }
+        }
+    },
+    {
+        "name": "Tabbed products",
+        "defaults": {
+            "type": "tabbed_products",
+            "disabled": false,
+            "settings": {
+                "title": "Tabbed products",
+                "title2": "Lorem",
+                "sub_title": "Cum doctus civibus efficiantur in imperdiet deterruisset",
+                "product_limit": 8
+            },
+            "blocks": {
+                "category-0": {
+                    "type": "category",
+                    "settings": {
+                        "category": ""
+                    }
+                },
+                "category-1": {
+                    "type": "category",
+                    "settings": {
+                        "category": ""
+                    }
+                }
+            },
+            "block_order": [
+                "category-0",
+                "category-1"
+            ]
+        }
+    }
+]

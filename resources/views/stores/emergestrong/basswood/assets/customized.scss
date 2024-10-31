@@ -1,0 +1,157 @@
+/*================ Variables ================*/
+
+$accent-color: $accent_color;
+$body-color: $body_color;
+$body-font: typography($body_font);
+$promo-title-font: typography($promo_title_font);
+$promo-subtitle-font: typography($promo_subtitle_font);
+$header-color: $header_color;
+$header-bg-color: $header_bg_color;
+$footer-bg-color: $footer_bg_color;
+$footer-color: $footer_color;
+
+body {
+  font-family: str-slice($body-font, 1, str-index($body-font, '|') - 1);
+  font-weight: str-slice($body-font, str-index($body-font, '|') + 1);
+  background-color: $body-color;
+}
+footer {
+  background-color: $footer-bg-color;
+}
+.footer-nav > nav > ul > li > a, .footer-bottom-menu > nav > ul > li > a, .footer-bottom-area-2 p {
+  color: $footer-color;
+}
+.footer-nav > nav > ul > li:after, .footer-nav > nav > ul > li:before {
+  color: lighten($footer-color, 30%);
+}
+.footer-social > ul > li > a:hover{
+    border-color: $accent-color;
+    color: $accent-color;
+}
+.header-sticky.is-sticky {
+  background: rgba($header-bg-color, .85);
+}
+.header-menu-area > nav > ul > li > a {
+  color: $header-color;
+}
+.shoppingcart-search-item > ul > li > a {
+  color: $header-color;
+}
+.item-total {
+  color: $header-color;
+}
+.header-top-phone > p > span, .header-top-phone > p > span > a {
+  color: $header-color;
+}
+.wellcome-mes > p {
+  color: $header-color;
+}
+.header-top-phone {
+  border-left: 1px solid lighten($header-color, 45%);
+  color: lighten($header-color, 20%);
+}
+.header-top-menu > ul > li:first-child {
+  border-left: 1px solid lighten($header-color, 45%);
+}
+.header-top-menu > ul > li > a {
+  border-right: 1px solid lighten($header-color, 45%);
+  color: $header-color;
+}
+.header-top-area {
+  border-bottom: 1px solid lighten($header-color, 45%);
+}
+#header_style_1 {
+  background-color: $header-bg-color;
+}
+.header-menu-area > nav > ul > li:before {
+  background: lighten($header-color, 30%);
+}
+.contact-static > h2 {
+  font-family: str-slice($promo-title-font, 1, str-index($promo-title-font, '|') - 1);
+  font-weight: str-slice($promo-title-font, str-index($promo-title-font, '|') + 1);
+}
+.contact-static > h3 {
+  font-family: str-slice($promo-subtitle-font, 1, str-index($promo-subtitle-font, '|') - 1);
+  font-weight: str-slice($promo-subtitle-font, str-index($promo-subtitle-font, '|') + 1);
+}
+a:hover {
+    color: $accent-color;
+}
+.mark, mark {
+    background: $accent-color none repeat scroll 0 0;
+}
+.default-btn:hover {
+    background: $accent-color;
+}
+.call-action-btn:hover{
+    border-color: $accent-color;
+    color: $accent-color;
+}
+input {
+  border: 2px solid $accent-color;
+}
+input:focus, textarea:focus {
+    border: 2px solid $accent-color;
+}
+#scrollUp:hover, .hero-slider .owl-nav > div:hover{
+    background: $accent-color;
+}
+.ht-dropdown > li:hover > a, 
+.header-menu-area > nav > ul > li.active > a, 
+.header-menu-area > nav > ul > li:hover > a, 
+.shoppingcart-search-item > ul > li > a:hover, 
+.currency-dropdown > li > a, 
+.currency-dropdown ul > li > a:hover, 
+.product-action > ul > li > a:hover, 
+.one-sale-product-content > h4 > a:hover,
+.product-slider .owl-nav > div,
+.product-slider-5 .owl-nav > div,
+.new-product-slider .owl-nav > div,
+.on-sale-product-slider .owl-nav > div,
+.on-sale-product-slider-4 .owl-nav > div,
+.blog-slider-1 .owl-nav > div,
+.brand-active .owl-nav > div,
+.product-slider .owl-nav > div:hover,
+.product-slider-5 .owl-nav > div:hover,
+.new-product-slider .owl-nav > div:hover,
+.new-product-slider-4 .owl-nav > div:hover,
+.on-sale-product-slider .owl-nav > div:hover,
+.on-sale-product-slider-4 .owl-nav > div:hover,
+.blog-slider-1 .owl-nav > div:hover,
+.brand-active .owl-nav > div:hover,
+.contact-static > h2 > span,
+.contact-static > h3 > span,
+.category-title > h4 > a:hover,
+.author-title > p.author-email:hover,
+.title-instagram > a,
+.footer-nav > nav > ul > li > a:hover,
+.page-list li a:hover,
+.page-list li.active a,
+p.lost-password a:hover,
+.login-toggle-btn > a:hover,
+.team-social > li > a:hover > i {
+    color: $accent-color;
+}
+.cart-sticker, 
+.send-btn:hover, 
+.nice-select .option:hover, 
+.nice-select .option.focus, 
+.nice-select .option.selected.focus,
+.shop-list .product-action > ul > li > a:hover,
+.shop-list .product-action > ul > li:first-child > a:hover,
+.table-content table td.product-add-cart a:hover {
+  background: $accent-color;
+}
+.vbox-close {
+  background: $accent-color url("close.gif") no-repeat scroll 10px center !important;
+}
+.cart-page-total > a:hover{
+    background: $accent-color;
+    border-color: $accent-color;
+}
+.gj-icon {
+  color: $accent-color;
+}
+.btn-booking {
+  background-color: $accent-color;
+}

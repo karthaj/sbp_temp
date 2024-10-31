@@ -1,0 +1,442 @@
+{
+    "name": "Basswood",
+    "version": "2.0.0",
+    "meta": {
+        "author_name": "Aidantz AppMedia",
+        "author_url": "https:\/\/www.aidantz.com",
+        "author_email": "support@aidantz.com",
+        "description": "A clean and minimal theme, perfect for showcasing products",
+        "desktop_screenshot": "desktop.jpg",
+        "mobile_screenshot": "",
+        "features": [
+            "Fully responsive",
+            "Social media icons",
+            "Product quickview",
+            "3 header styles",
+            "customizable sections",
+            "Free theme updates"
+        ]
+    },
+    "current": {
+        "box_view": false,
+        "header_style": 2,
+        "header_color": "#F41556",
+        "header_bg_color": "#fff",
+        "footer_bg_color": "#fff",
+        "footer_color": "#7a7a7a",
+        "accent_color": "#7a7a7a",
+        "body_color": "#fff",
+        "body_font": "Google_Raleway_400_sans",
+        "promo_title_font": "Google_Roboto+Slab_700_serif",
+        "promo_subtitle_font": "Google_Roboto+Slab_700_serif",
+        "social_twitter_link": "",
+        "social_facebook_link": "https:\/\/www.facebook.com\/isleofartisans\/",
+        "social_instagram_link": "https:\/\/www.instagram.com\/isle.of.artisans\/",
+        "social_youtube_link": "",
+        "social_google_plus_link": "",
+        "custom_css": "",
+        "show_multiple_currencies": true,
+        "supported_currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header_style_1": {
+                "type": "header",
+                "settings": {
+                    "logo": "picture-20190726-072544904.png",
+                    "menu": "main-menu",
+                    "phone": "",
+                    "email": ""
+                }
+            },
+            "header_style_2": {
+                "type": "header",
+                "settings": {
+                    "logo": "picture-20190726-072544904.png",
+                    "menu": "main-menu"
+                }
+            },
+            "header_style_3": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": "(00) 123 4567",
+                    "email": "youremail@domain.com",
+                    "message": "Welcome you to Basswood store!"
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "text_color": "#252525",
+                    "button_bg_color": "#fff"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "banner5.jpg",
+                            "title": "",
+                            "text_1": "",
+                            "text_2": "Journey through artisanal Sri Lanka",
+                            "text_3": "",
+                            "button_label": "ABOUT US",
+                            "button_link": "pages\/about"
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "banner7.jpg",
+                            "text_1": "Contemporary Brands",
+                            "title": "",
+                            "text_2": "artists",
+                            "text_3": "artisans",
+                            "button_label": "Join us",
+                            "button_link": "pages\/contact"
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "banner": {
+                "type": "banner",
+                "disabled": true,
+                "settings": {
+                    "banner_img_1": "",
+                    "banner_link_1": "",
+                    "banner_img_2": "",
+                    "banner_link_2": "",
+                    "banner_img_3": "",
+                    "banner_link_3": ""
+                }
+            },
+            "promo_banner": {
+                "type": "promo-banner",
+                "disabled": false,
+                "settings": {
+                    "image": "banner6g.jpg",
+                    "logo": "logo-tiny.jpg",
+                    "title": "Art-centric",
+                    "subtite": "ethical Brands",
+                    "button_color": "#fff",
+                    "button_label": "Button",
+                    "button_link": ""
+                }
+            },
+            "feature-list": {
+                "type": "feature-list",
+                "disabled": false,
+                "settings": {
+                    "style": "grid",
+                    "feature_img_1": "icon-2.jpg",
+                    "feature_title_1": "Earth-Friendly",
+                    "feature_subtitle_1": "100% natural \/ upcycled \/ eco-friendly alternatives to every day products.",
+                    "feature_img_2": "icon-1.jpg",
+                    "feature_title_2": "Community-based",
+                    "feature_subtitle_2": "home-based small businesses, social enterprises, and community projects",
+                    "feature_img_3": "icon-3.jpg",
+                    "feature_title_3": "Homegrown",
+                    "feature_subtitle_3": "handmade in Sri Lanka"
+                }
+            },
+            "instagram": {
+                "type": "instagram",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "username": "isle.of.artisans",
+                    "access_token": "7059834032.1677ed0.11eaac94962c47ce8a1a7148e73c77bd",
+                    "image_limit": 12
+                }
+            },
+            "blog_post": {
+                "type": "blog-post",
+                "disabled": false,
+                "settings": {
+                    "title": "Blog posts",
+                    "subtitle": "small isle, big heart ...21 million  stories",
+                    "post_limit": 3,
+                    "image": ""
+                }
+            },
+            "product_grid": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "title": "Featured Products",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": "hand-salve"
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": "basic-hoodie"
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": true,
+                "settings": {
+                    "title": "Custom HTML",
+                    "code": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>"
+                }
+            },
+            "contact": {
+                "type": "contact",
+                "settings": {
+                    "title": "Store information",
+                    "address": "126 Park Road, Colombo 5.  Sri Lanka",
+                    "phone": "",
+                    "email": ""
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "style": 2,
+                    "logo": "picture-20190726-003128239.jpg",
+                    "menu": "footer-menu"
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "banner",
+            "product_grid",
+            "promo_banner",
+            "feature-list",
+            "instagram",
+            "blog_post",
+            "custom_html"
+        ]
+    },
+    "default": {
+        "box_view": false,
+        "header_style": 1,
+        "header_color": "#7a7a7a",
+        "header_bg_color": "#fff",
+        "footer_bg_color": "#fff",
+        "footer_color": "#7a7a7a",
+        "accent_color": "#24bddf",
+        "body_color": "#fff",
+        "body_font": "Google_Raleway_400_sans",
+        "promo_title_font": "Google_Roboto+Slab_700_serif",
+        "promo_subtitle_font": "Google_Roboto+Slab_700_serif",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_google_plus_link": "",
+        "custom_css": "",
+        "show_multiple_currencies": true,
+        "supported_currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header_style_1": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": "(00) 123 4567",
+                    "email": "youremail@domain.com"
+                }
+            },
+            "header_style_2": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu"
+                }
+            },
+            "header_style_3": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": "(00) 123 4567",
+                    "email": "youremail@domain.com",
+                    "message": "Welcome you to Basswood store!"
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "slide_show_speed": 5000,
+                    "text_color": "#252525",
+                    "button_bg_color": "#fff"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "title": "Image Slide",
+                            "text_1": "Lorem ipsum",
+                            "text_2": "Lorem ipsum",
+                            "text_3": "Lorem ipsum",
+                            "button_label": "Button",
+                            "button_link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "text_1": "Lorem ipsum",
+                            "title": "Image Slide",
+                            "text_2": "Lorem ipsum",
+                            "text_3": "Lorem ipsum",
+                            "button_label": "Button",
+                            "button_link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "banner": {
+                "type": "banner",
+                "disabled": false,
+                "settings": {
+                    "banner_img_1": "",
+                    "banner_link_1": "",
+                    "banner_img_2": "",
+                    "banner_link_2": "",
+                    "banner_img_3": "",
+                    "banner_link_3": ""
+                }
+            },
+            "promo_banner": {
+                "type": "promo-banner",
+                "disabled": false,
+                "settings": {
+                    "image": "",
+                    "logo": "",
+                    "title": "promo banner",
+                    "subtite": "Lorem ipsum dolor",
+                    "button_color": "#fff",
+                    "button_label": "Button",
+                    "button_link": ""
+                }
+            },
+            "feature-list": {
+                "type": "feature-list",
+                "disabled": false,
+                "settings": {
+                    "style": "grid",
+                    "feature_img_1": "",
+                    "feature_title_1": "Free Shipping",
+                    "feature_subtitle_1": "Free shipping on all order over $99.00",
+                    "feature_img_2": "",
+                    "feature_title_2": "Online Support 24\/7",
+                    "feature_subtitle_2": "We are here to make your day. Let\u2019s talk!",
+                    "feature_img_3": "",
+                    "feature_title_3": "Money Back Guarantee!",
+                    "feature_subtitle_3": "We free 30 days 100% money back & return"
+                }
+            },
+            "instagram": {
+                "type": "instagram",
+                "disabled": false,
+                "settings": {
+                    "style": 2,
+                    "username": "username",
+                    "access_token": "",
+                    "image_limit": 6
+                }
+            },
+            "blog_post": {
+                "type": "blog-post",
+                "disabled": false,
+                "settings": {
+                    "title": "Blog posts",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum provident, odio corporis laborum hic odit.",
+                    "post_limit": 3,
+                    "image": ""
+                }
+            },
+            "product_grid": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "title": "Featured Products",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "Custom HTML",
+                    "code": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>"
+                }
+            },
+            "contact": {
+                "type": "contact",
+                "settings": {
+                    "title": "Store information",
+                    "address": "Store address here",
+                    "phone": "(xxx) xxx xxxx",
+                    "email": "demo@basswood.com"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "style": 1,
+                    "logo": "",
+                    "menu": ""
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "banner",
+            "product_grid",
+            "promo_banner",
+            "feature-list",
+            "instagram",
+            "blog_post"
+        ]
+    }
+}

@@ -1,0 +1,531 @@
+{
+    "name": "Basswood",
+    "version": "1.3.6",
+    "meta": {
+        "author_name": "Aidantz AppMedia",
+        "author_url": "https:\/\/www.aidantz.com",
+        "author_email": "support@aidantz.com",
+        "description": "A clean and minimal theme, perfect for showcasing products",
+        "desktop_screenshot": "desktop.jpg",
+        "mobile_screenshot": "",
+        "features": [
+            "Fully responsive",
+            "Social media icons",
+            "Product quickview",
+            "3 header styles",
+            "customizable sections",
+            "Free theme updates"
+        ]
+    },
+    "current": {
+        "box_view": false,
+        "header_style": 2,
+        "header_color": "#000000",
+        "header_bg_color": "#C3C0C0",
+        "footer_bg_color": "#FFFFFF",
+        "footer_color": "#000000",
+        "accent_color": "#C3C0C0",
+        "body_color": "#FFFFFF",
+        "body_font": "Google_Droid+Sans_700_sans",
+        "promo_title_font": "Google_Muli_600_sans",
+        "promo_subtitle_font": "Google_Arvo_400_serif",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_google_plus_link": "",
+        "custom_css": "#feature-list {\nmargin-top: 100px !important;\n}",
+        "show_multiple_currencies": true,
+        "supported_currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header_style_1": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": 9411231223821,
+                    "email": "reservations@camelot.lk"
+                }
+            },
+            "header_style_2": {
+                "type": "header",
+                "settings": {
+                    "logo": "cbh-logo-christmas-small.png",
+                    "menu": "top-menu"
+                }
+            },
+            "header_style_3": {
+                "type": "header",
+                "settings": {
+                    "logo": "cbh-logo-logo-1335215861.png",
+                    "menu": "main-menu",
+                    "phone": "(+94) 31 22 35882",
+                    "email": "reservations@camelot.lk",
+                    "message": "Check out our latest promotions !"
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "text_color": "#252525",
+                    "button_bg_color": "#fff"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "title": "Image Slide",
+                            "text_1": "Lorem ipsum",
+                            "text_2": "Lorem ipsum",
+                            "text_3": "Lorem ipsum",
+                            "button_label": "Button",
+                            "button_link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "text_1": "Lorem ipsum",
+                            "title": "Image Slide",
+                            "text_2": "Lorem ipsum",
+                            "text_3": "Lorem ipsum",
+                            "button_label": "Button",
+                            "button_link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "banner": {
+                "type": "banner",
+                "disabled": false,
+                "settings": {
+                    "banner_img_1": "coastal-deluxe-rooms.png",
+                    "banner_link_1": "https:\/\/camelot.lk\/pages\/coastal-deluxe",
+                    "banner_img_2": "deluxe-rooms.png",
+                    "banner_link_2": "https:\/\/camelot.lk\/pages\/deluxe-rooms",
+                    "banner_img_3": "suites.png",
+                    "banner_link_3": ""
+                }
+            },
+            "promo_banner": {
+                "type": "promo-banner",
+                "disabled": false,
+                "settings": {
+                    "image": "",
+                    "logo": "",
+                    "title": "promo banner",
+                    "subtite": "Lorem ipsum dolor",
+                    "button_color": "#fff",
+                    "button_label": "Button",
+                    "button_link": ""
+                }
+            },
+            "feature-list": {
+                "type": "feature-list",
+                "disabled": false,
+                "settings": {
+                    "style": "grid",
+                    "feature_img_1": "810-512.png",
+                    "feature_title_1": "3 Swimming Pools",
+                    "feature_subtitle_1": "2 adult & 1 kiddies",
+                    "feature_img_2": "229-512.png",
+                    "feature_title_2": "Direct beach access",
+                    "feature_subtitle_2": "nothing but sun sea and sand!",
+                    "feature_img_3": "spa-rock-candle-hotel-512.png",
+                    "feature_title_3": "Spa services",
+                    "feature_subtitle_3": "Ayurvedic treatments to cleanse the mind, body and soul"
+                }
+            },
+            "instagram": {
+                "type": "instagram",
+                "disabled": true,
+                "settings": {
+                    "style": 2,
+                    "username": "username",
+                    "access_token": "",
+                    "image_limit": 6
+                }
+            },
+            "blog_post": {
+                "type": "blog-post",
+                "disabled": false,
+                "settings": {
+                    "title": "Blog posts",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum provident, odio corporis laborum hic odit.",
+                    "post_limit": 3,
+                    "image": ""
+                }
+            },
+            "product_grid": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "title": "Featured Products",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": "hand-salve"
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": "basic-hoodie"
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "WELCOME TO CAMELOT BEACH HOTEL",
+                    "code": "<h4 style=\"text-align: center;\"><br \/>Camelot is located on the golden belt of Sri Lanka's west coast <br \/>and provides travellers with a perfect place to relax and unwind.<\/h4>\n<h4 style=\"text-align: center;\">With the Indian ocean glistening in the horizon, <br \/>basking in the sun has never been so inviting.<\/h4>\n<h4 style=\"text-align: center;\">Being in close proximity to the airport, <br \/>spending a few days at Camelot is a perfect place<br \/> to begin and conclude your travels through our beautiful isle.<\/h4>\n<p style=\"text-align: center;\"><br \/><br \/><\/p>"
+                }
+            },
+            "contact": {
+                "type": "contact",
+                "settings": {
+                    "title": "Store information",
+                    "address": "Store address here",
+                    "phone": "(xxx) xxx xxxx",
+                    "email": "demo@basswood.com"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "style": 1,
+                    "logo": "cbh-logo-christmas-small.png",
+                    "menu": "bottom-menu"
+                }
+            },
+            "842150944771": {
+                "type": "image-with-text",
+                "disabled": true,
+                "settings": {
+                    "style": 1,
+                    "image": "2.jpg",
+                    "title": "Welcome to Camelot Beach Hotel",
+                    "title_link": "",
+                    "description": "<h4><em>Camelot is&nbsp;located on the&nbsp;golden belt&nbsp;&nbsp;o<em>f&nbsp;<\/em><\/em><em>Sri Lanka's west coast and provides travellers with a perfect place to relax and unwind.<\/em><br><\/h4>\n<p><\/p>\n<h4><em>With the Indian ocean glistening in the horizon, basking in the sun has never been so inviting.<\/em><br><\/h4>\n<h4><em>Being in close proximity to the airport, spending a few days at Camelot is a perfect place to begin and conclude your travels through our beautiful isle.<\/em><\/h4>",
+                    "button_label": "Book NOW",
+                    "button_link": "https:\/\/camelot.myshopbox.lk\/pages\/book-now"
+                }
+            },
+            "805172084038": {
+                "type": "promo-banner",
+                "disabled": false,
+                "settings": {
+                    "image": "experiences-2.png",
+                    "logo": "100-height-pixel.png",
+                    "title": "bespoke experience",
+                    "subtite": "",
+                    "button_color": "#fff",
+                    "button_label": "",
+                    "button_link": ""
+                }
+            },
+            "646300048853": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "style": 4,
+                    "text_color": "#0C5CF9",
+                    "button_bg_color": "rgba(249, 221, 221, 0.87)",
+                    "slide_show_speed": 5000
+                },
+                "blocks": {
+                    "14923964": {
+                        "type": "image",
+                        "settings": {
+                            "image": "camelot-landing-page.jpg",
+                            "title": "",
+                            "text_1": "",
+                            "text_2": "",
+                            "text_3": "",
+                            "button_label": "",
+                            "button_link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    14923964
+                ]
+            },
+            "476521871173": {
+                "type": "banner",
+                "disabled": false,
+                "settings": {
+                    "banner_img_1": "banner-template-620-x-300-1.png",
+                    "banner_link_1": "https:\/\/camelot.myshopbox.lk\/pages\/experiences",
+                    "banner_img_2": "banner-template-620-x-300-2.png",
+                    "banner_link_2": "https:\/\/camelot.myshopbox.lk\/pages\/experiences",
+                    "banner_img_3": "banner-template-620-x-300-3.png",
+                    "banner_link_3": "https:\/\/camelot.myshopbox.lk\/pages\/experiences"
+                }
+            },
+            "877630782439": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "",
+                    "code": "<figure style=\"text-align: center;\"><img src=\"https:\/\/camelot.myshopbox.lk\/stores\/camelot\/img\/explore-our-rooms.png\" data-image=\"2uiv4drpuls7\" width=\"309.2307692307692\" height=\"67\" style=\"width: 309.231px; height: 67px;\"><\/figure>"
+                }
+            },
+            "18717779554": {
+                "type": "booking-ipms247",
+                "disabled": false,
+                "settings": {
+                    "post_url": "https:\/\/live.ipms247.com\/booking\/book-rooms-camelotbeachhotel",
+                    "bg_color": "#FFFFFF",
+                    "txt_color": "#000000"
+                }
+            },
+            "499793103370": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "",
+                    "code": ""
+                }
+            }
+        },
+        "content_for_index": [
+            646300048853,
+            18717779554,
+            "custom_html",
+            842150944771,
+            499793103370,
+            "feature-list",
+            877630782439,
+            "banner",
+            805172084038,
+            476521871173
+        ]
+    },
+    "default": {
+        "box_view": false,
+        "header_style": 1,
+        "header_color": "#7a7a7a",
+        "header_bg_color": "#fff",
+        "footer_bg_color": "#fff",
+        "footer_color": "#7a7a7a",
+        "accent_color": "#24bddf",
+        "body_color": "#fff",
+        "body_font": "Google_Raleway_400_sans",
+        "promo_title_font": "Google_Roboto+Slab_700_serif",
+        "promo_subtitle_font": "Google_Roboto+Slab_700_serif",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_google_plus_link": "",
+        "custom_css": "",
+        "show_multiple_currencies": true,
+        "supported_currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header_style_1": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": "(00) 123 4567",
+                    "email": "youremail@domain.com"
+                }
+            },
+            "header_style_2": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu"
+                }
+            },
+            "header_style_3": {
+                "type": "header",
+                "settings": {
+                    "logo": "",
+                    "menu": "main-menu",
+                    "phone": "(00) 123 4567",
+                    "email": "youremail@domain.com",
+                    "message": "Welcome you to Basswood store!"
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "style": 1
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "title": "Image Slide",
+                            "text_1": "Lorem ipsum",
+                            "text_2": "Lorem ipsum",
+                            "text_3": "Lorem ipsum",
+                            "button_label": "Button",
+                            "button_link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "text_1": "Lorem ipsum",
+                            "title": "Image Slide",
+                            "text_2": "Lorem ipsum",
+                            "text_3": "Lorem ipsum",
+                            "button_label": "Button",
+                            "button_link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "banner": {
+                "type": "banner",
+                "disabled": false,
+                "settings": {
+                    "banner_img_1": "",
+                    "banner_link_1": "",
+                    "banner_img_2": "",
+                    "banner_link_2": "",
+                    "banner_img_3": "",
+                    "banner_link_3": ""
+                }
+            },
+            "promo_banner": {
+                "type": "promo-banner",
+                "disabled": false,
+                "settings": {
+                    "image": "",
+                    "logo": "",
+                    "title": "promo banner",
+                    "subtite": "Lorem ipsum dolor",
+                    "button_color": "#fff",
+                    "button_label": "Button",
+                    "button_link": ""
+                }
+            },
+            "feature-list": {
+                "type": "feature-list",
+                "disabled": false,
+                "settings": {
+                    "style": "grid",
+                    "feature_img_1": "",
+                    "feature_title_1": "Free Shipping",
+                    "feature_subtitle_1": "Free shipping on all order over $99.00",
+                    "feature_img_2": "",
+                    "feature_title_2": "Online Support 24\/7",
+                    "feature_subtitle_2": "We are here to make your day. Let\u2019s talk!",
+                    "feature_img_3": "",
+                    "feature_title_3": "Money Back Guarantee!",
+                    "feature_subtitle_3": "We free 30 days 100% money back & return"
+                }
+            },
+            "instagram": {
+                "type": "instagram",
+                "disabled": true,
+                "settings": {
+                    "style": 2,
+                    "title": "username",
+                    "access_token": ""
+                }
+            },
+            "blog_post": {
+                "type": "blog-post",
+                "disabled": false,
+                "settings": {
+                    "title": "Blog posts",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum provident, odio corporis laborum hic odit.",
+                    "post_limit": 3,
+                    "image": ""
+                }
+            },
+            "product_grid": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "style": 1,
+                    "title": "Featured Products",
+                    "subtitle": "Lorem ipsum dolor sit amet, consectetur adipisicing elit"
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": "hand-salve"
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": "basic-hoodie"
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "Custom HTML",
+                    "code": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>"
+                }
+            },
+            "contact": {
+                "type": "contact",
+                "settings": {
+                    "title": "Store information",
+                    "address": "Store address here",
+                    "phone": "(xxx) xxx xxxx",
+                    "email": "demo@basswood.com"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "style": 1,
+                    "logo": "",
+                    "menu": ""
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "banner",
+            "product_grid",
+            "promo_banner",
+            "feature-list",
+            "instagram",
+            "blog_post",
+            "custom_html"
+        ]
+    }
+}

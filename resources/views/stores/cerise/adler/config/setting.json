@@ -1,0 +1,382 @@
+{
+    "name": "Adler",
+    "version": "2.5.0",
+    "meta": {
+        "author_name": "Aidantz AppMedia",
+        "author_url": "#",
+        "author_email": "support@aidantz.com",
+        "description": "Ideal for a wide range of businesses and brands, this design is fully responsive, simple, and ready for you to add your branding, logo, and products.",
+        "desktop_screenshot": "desktop.jpg",
+        "mobile_screenshot": "",
+        "features": [
+            "Fully responsive",
+            "Social media icons",
+            "Product quickview",
+            "3 header styles",
+            "customizable sections",
+            "Free theme updates"
+        ]
+    },
+    "current": {
+        "header_color": "#131212",
+        "header_color_bg": "#FFFFFF",
+        "accent_color": "#D20D68",
+        "body_color": "#0F0006",
+        "button_bg_color": "#FD4ABB",
+        "button_color": "#0B0A0A",
+        "body_bg_color": "#FFFFFF",
+        "header_bar_color": "#FFFFFF",
+        "footer_bg_color": "#FFFFFF",
+        "footer_title_color": "#D20D68",
+        "footer_text_color": "#070545",
+        "h1_font": "Google_Lato_400_sans",
+        "h2_font": "Google_Lato_400_sans",
+        "h3_font": "Google_Lato_400_sans",
+        "h4_font": "Google_Lato_400_sans",
+        "h5_font": "Google_Lato_400_sans",
+        "h6_font": "Google_Lato_400_sans",
+        "h1_size": "16px",
+        "h2_size": "16px",
+        "h3_size": "16px",
+        "h4_size": "16px",
+        "h5_size": "16px",
+        "h6_size": "14px",
+        "body_font": "Google_Lato_400_sans",
+        "body_font_size": "16px",
+        "social_twitter_link": "https:\/\/twitter.com\/thinkcerise",
+        "social_facebook_link": "https:\/\/www.facebook.com\/infocerise\/",
+        "social_pinterest_link": "",
+        "social_instagram_link": "https:\/\/www.instagram.com\/thinkcerise\/",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": ".b-footer_container .b-social-icons li a {\n  color: #d20d68; }",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "left",
+                    "logo": "cerise-square-2-ps.png",
+                    "header_main_menu": "blank",
+                    "header_secondary_menu": "main-menu",
+                    "show_top_bar": true,
+                    "top_bar_text": "Hi \ud83d\udc4b Welcome!",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": 5000,
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "best selling products \ud83d\udc4b",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": "deliciously-ella-almond-nut-butter-balls-36g"
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": "wild-yam-root-405mg-100-capsules"
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "featured_categories": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "Baby & Child",
+                    "title": "featured categories",
+                    "ft_cat_text": "Amazing Value on all your favourite Baby & Child products",
+                    "ft_cat_sub_heading_color": "#241D1D",
+                    "ft_cat_text_color": "#0D0000",
+                    "ft_cat_1": "",
+                    "ft_cat_1_img": "babymel-changing-bag-858687421365.jpg",
+                    "ft_cat_2": "",
+                    "ft_cat_2_img": "tommee-tippee-free-flow-first-cup-502498203654.jpg",
+                    "ft_cat_3": "health-beauty",
+                    "ft_cat_3_img": "aquafresh-kids.png",
+                    "ft_cat_4": "health-beauty",
+                    "ft_cat_4_img": "johnsons-baby-shampoo-200ml-236541277854.jpg",
+                    "ft_cat_show_category_label": false,
+                    "title": "Amazing Value \ud83d\udc4b"
+                }
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+			
+                    "code": "Can't find what you are looking for? Too expensive? Too far for pick up? Get in touch with us and we will bring it to your door step, at a discounted price! Daily essentials, Innovative new products, DIY items, House and Garden products, Baby products, the latest fashions. Whatever your requirement, Cerise is the one-stop-shop-&-delivery platform that also brings the best prices. Collections & deliveries are made convenient every week. Tracking services can be provided on request and bulk orders are accepted. Feel the difference with Cerise.\u00a0\u00a0",
+                    "enable_full_width": false,
+                    "title": "How we do it \ud83d\udc4b"
+                }
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+                    "image": "online-store-icon-urchenkojulia.jpg",
+                    "layout_grid": "half_right_image",
+                    "text": "<h2><br><\/h2><p>Cerise is an online shopping platform that sources and delivers a wide range of brand name and designer products directly to the doorstop. By cutting out the middle man and the costly frills of advertising, we guarantee price savings for our customers that can go up to a staggering 60% below the Recommended Retail Prices in high street and department outlets.<br><br>Our business philosophy is about treating all of our customers with dignity and respect. We are committed to creating an environment of inclusion in our business that reflects the wonderful diversity of our customer population, wherever we operate. Our final objective is to create value for our customers by combining brand, fashion, price and quality. Unlike traditional retailers, we do not maintain large promotional, sales and advertising budgets. Instead, we focus on exciting merchandise at amazing prices, every single day.&nbsp;<\/p><p><\/p>",
+                    "title": "about cerise \ud83d\udc4b"
+                }
+            },
+            "newsletter": {
+                "type": "newsletter",
+                "disabled": false,
+                "settings": {
+                    "newsletter_bg": "cerise-colour.jpg",
+                    "newsletter_sub_heading": "Welcome to Cerise",
+                    "newsletter_heading": "Newsletter Heading",
+                    "newsletter_text": "To keep up to date with all the latest STAR BUYS and online promotions please complete your details below.",
+                    "newsletter_form_action": "https:\/\/cerise.us4.list-manage.com\/subscribe\/post?u=095ec6279318bc9e0b1b109d8&amp;id=a276b64754",
+                    "title": "Newsletters sign up"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "images.png",
+                    "footer_menu_title_1": "at cerise \ud83d\udc4b",
+                    "footer_menu_1": "shoppers",
+                    "footer_menu_title_2": "Be the first \ud83d\udc4b",
+                    "footer_menu_2": "information",
+                    "footer_menu_title_3": "",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "Contact us \ud83d\udc4b",
+                    "footer_menu_text": "COLLECTIONS & DELIVERIES ARE MADE CONVENIENT EVERY WEEK FROM 9.30AM-11.30AM IN KOLLUPITIYA, MOUNT LAVINIA AND NAWALA. FOR AVAILABLE STOCK 2-3 DAYS AND FOR SHIPMENTS MINIMUM 12 DAYS.",
+                    "footer_address": "GREATER COLOMBO",
+                    "footer_phone": "+94 777727781",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            }
+        },
+        "content_for_index": [
+            "featured_categories",
+            "best_selling_products",
+            "custom_html",
+            "image_with_text",
+            "newsletter"
+        ]
+    },
+    "default": {
+        "header_color": "#2E2E2E",
+        "header_color_bg": "#ffffff",
+        "accent_color": "#2E2E2E",
+        "body_color": "#292b2c",
+        "button_bg_color": "#2E2E2E",
+        "button_color": "#fff",
+        "body_bg_color": "#fff",
+        "header_bar_color": "#fff",
+        "footer_bg_color": "#000",
+        "footer_title_color": "#fff",
+        "footer_text_color": "#fff",
+        "h1_font": "Google_Work+Sans_400_sans",
+        "h2_font": "Google_Work+Sans_400_sans",
+        "h3_font": "Google_Work+Sans_400_sans",
+        "h4_font": "Google_Work+Sans_400_sans",
+        "h5_font": "Google_Work+Sans_400_sans",
+        "h6_font": "Google_Work+Sans_400_sans",
+        "h1_size": "40px",
+        "h2_size": "32px",
+        "h3_size": "28px",
+        "h4_size": "24px",
+        "h5_size": "20px",
+        "h6_size": "16px",
+        "body_font": "Google_Work+Sans_400_sans",
+        "body_font_size": "14px",
+        "social_twitter_link": "",
+        "social_facebook_link": "",
+        "social_pinterest_link": "",
+        "social_instagram_link": "",
+        "social_youtube_link": "",
+        "social_vimeo_link": "",
+        "custom_css": "",
+        "enable_multicurrency": true,
+        "currencies": "INR,GBP,CAD,USD,AUD,EUR,JPY",
+        "sections": {
+            "header": {
+                "type": "header",
+                "settings": {
+                    "align_logo": "center",
+                    "logo": "",
+                    "header_main_menu": "",
+                    "header_secondary_menu": "",
+                    "show_top_bar": true,
+                    "top_bar_text": "Announce something here",
+                    "top_bar_url": "#",
+                    "header_enable_secondary_menu": true
+                }
+            },
+            "slideshow": {
+                "type": "slideshow",
+                "disabled": false,
+                "settings": {
+                    "slide_show_speed": "5000",
+                    "slider_animation": "fade"
+                },
+                "blocks": {
+                    "2957146055": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    },
+                    "6130072884": {
+                        "type": "image",
+                        "settings": {
+                            "image": "",
+                            "link": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    2957146055,
+                    6130072884
+                ]
+            },
+            "best_selling_products": {
+                "type": "product-grid",
+                "disabled": false,
+                "settings": {
+                    "title": "best selling products",
+                    "column_grid": 4
+                },
+                "blocks": {
+                    "product-0": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    },
+                    "product-1": {
+                        "type": "product",
+                        "settings": {
+                            "product": ""
+                        }
+                    }
+                },
+                "block_order": [
+                    "product-0",
+                    "product-1"
+                ]
+            },
+            "featured_categories": {
+                "type": "featured-categories",
+                "disabled": false,
+                "settings": {
+                    "ft_cat_sub_heading": "Sub-Heading",
+                    "title": "featured categories",
+                    "ft_cat_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, deleniti.",
+                    "ft_cat_sub_heading_color": "#9b9b9",
+                    "ft_cat_text_color": "#4C4C4C",
+                    "ft_cat_1": "",
+                    "ft_cat_1_img": "",
+                    "ft_cat_2": "",
+                    "ft_cat_2_img": "",
+                    "ft_cat_3": "",
+                    "ft_cat_3_img": "",
+                    "ft_cat_4": "",
+                    "ft_cat_4_img": "",
+                    "ft_cat_show_category_label": true
+                }
+            },
+            "custom_html": {
+                "type": "custom-html",
+                "disabled": false,
+                "settings": {
+                    "title": "Custom HTML",
+                    "code": "<h2>Lorem<\/h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem accusantium aliquid eaque iste quae, modi nam beatae possimus tempora ab.<\/p>",
+                    "enable_full_width": false
+                }
+            },
+            "image_with_text": {
+                "type": "image-with-text",
+                "disabled": false,
+                "settings": {
+                    "title": "Image with text",
+                    "image": "",
+                    "layout_grid": "half_right_text",
+                    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo distinctio unde recusandae fuga dolores in fugit tempore doloribus deserunt modi illo expedita illum, facere numquam voluptatibus dolorem ipsam aliquam veniam?"
+                }
+            },
+            "footer": {
+                "type": "footer",
+                "settings": {
+                    "logo": "",
+                    "footer_menu_title_1": "our stores",
+                    "footer_menu_1": "",
+                    "footer_menu_title_2": "information",
+                    "footer_menu_2": "",
+                    "footer_menu_title_3": "useful links",
+                    "footer_menu_3": "",
+                    "footer_menu_title_4": "about the store",
+                    "footer_menu_text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, quas quidem ullam fugiat.",
+                    "footer_address": "100 Street, City, State, Country",
+                    "footer_phone": "Phone: (000) 000-0000",
+                    "footer_show_payment_icons": true
+                }
+            },
+            "product_detail": {
+                "type": "product-detail",
+                "settings": {
+                    "enable_social_sharing": false
+                }
+            }
+        },
+        "content_for_index": [
+            "slideshow",
+            "featured_categories",
+            "best_selling_products",
+            "custom_html",
+            "image_with_text"
+        ]
+    }
+}
