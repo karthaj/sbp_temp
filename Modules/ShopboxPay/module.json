@@ -1,0 +1,21 @@
+{
+    "name": "ShopboxPay",
+    "alias": "shopboxpay",
+    "description": "A trusted and all in one payment solution which allows customers to transact on your site.",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "author": "Aidantz App Media",
+    "email": "hello@aidantz.com",
+    "price": 0,
+    "is_core": 0,
+    "version": "1.0.0",
+    "providers": [
+        "Modules\\ShopboxPay\\Providers\\ShopboxPayServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

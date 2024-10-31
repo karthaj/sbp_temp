@@ -1,0 +1,21 @@
+{
+    "name": "HNB",
+    "alias": "hnb",
+    "description": "Accept credit cards in you store.",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "author": "Aidantz App Media",
+    "email": "hello@aidantz.com",
+    "price": 0,
+    "is_core": 0,
+    "version": "1.0.0",
+    "providers": [
+        "Modules\\HNB\\Providers\\HNBServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

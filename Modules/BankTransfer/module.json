@@ -1,0 +1,21 @@
+{
+    "name": "BankTransfer",
+    "alias": "banktransfer",
+    "description": "Accept payments by bank transfer",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "author": "Aidantz App Media",
+    "email": "hello@aidantz.com",
+    "price": 0,
+    "is_core": 0,
+    "version": "1.0.0",
+    "providers": [
+        "Modules\\BankTransfer\\Providers\\BankTransferServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

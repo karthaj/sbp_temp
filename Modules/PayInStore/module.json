@@ -1,0 +1,21 @@
+{
+    "name": "PayInStore",
+    "alias": "payinstore",
+    "description": "Accept payments in store",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "author": "Aidantz App Media",
+    "email": "hello@aidantz.com",
+    "price": 0,
+    "is_core": 0,
+    "version": "1.0.0",
+    "providers": [
+        "Modules\\PayInStore\\Providers\\PayInStoreServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

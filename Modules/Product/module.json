@@ -1,0 +1,21 @@
+{
+    "name": "Product",
+    "alias": "product",
+    "description": "Manage your products, categories, inventories and transfers at ease.",
+    "keywords": [],
+    "author": "Aidantz App Media",
+    "email": "hello@aidantz.com",
+    "price": 0,
+    "is_core": 1,
+    "active": 1,
+    "order": 0,
+    "version": "1.0.0",
+    "providers": [
+        "Modules\\Product\\Providers\\ProductServiceProvider"
+    ],
+    "aliases": [],
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}

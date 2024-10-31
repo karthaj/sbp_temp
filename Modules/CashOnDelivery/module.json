@@ -1,0 +1,21 @@
+{
+    "name": "CashOnDelivery",
+    "alias": "cashondelivery",
+    "description": "Cash on Delivery (COD)",
+    "keywords": [],
+    "active": 1,
+    "author": "Aidantz App Media",
+    "email": "hello@aidantz.com",
+    "price": 0,
+    "is_core": 1,
+    "version": "1.0.0",
+    "order": 0,
+    "providers": [
+        "Modules\\CashOnDelivery\\Providers\\CashOnDeliveryServiceProvider"
+    ],
+    "aliases": {},
+    "files": [
+        "start.php"
+    ],
+    "requires": []
+}
