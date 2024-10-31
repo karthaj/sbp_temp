@@ -3,6 +3,7 @@
 namespace Shopbox\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Modules\Product\Entities\CheckoutOtp; 
 
 class checkoutOtpController extends Controller
 {
