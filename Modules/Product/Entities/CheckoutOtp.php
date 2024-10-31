@@ -37,8 +37,8 @@ class CheckoutOtp extends Model
         $expiresAt = Carbon::now()->addMinutes(3); // Set expiration to 3 minutes
 
             // Set initial retry count and timestamp in the session
-        Session::put("otp_retry_count_{$cartId}", 0);
-        Session::put("otp_timestamp_{$cartId}", now());
+        session()->put("otp_retry_count_{$cartId}", 0);
+        session()->put("otp_timestamp_{$cartId}", now());
 
         return self::updateOrCreate(
             ['cart_id' => $cartId],
