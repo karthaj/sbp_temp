@@ -16,7 +16,7 @@
 <!-- END BREADCRUMB --> 
 <div  class="card card-transparent">
   <div class="card-header">
-    <h1 class="section-title">Payment methods</h1>
+    <h1 class="section-title">Payment methods test</h1>
   </div>
   <div class="m-0 row card-block pb-0">
       <div class="col-lg-4 no-padding">
