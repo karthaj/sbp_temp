@@ -36,7 +36,7 @@ class CheckoutOtpEmail extends Mailable
                     ->subject('Your OTP Code')
                     ->with([
                         'otpCode' => $this->otpCode,
-                        'storeName' => $this-storeName,
+                        'storeName' => $this->storeName,
                     ]);
     }
 }
