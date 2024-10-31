@@ -32,10 +32,11 @@ class CheckoutOtpEmail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.otp') // Create this view in resources/views/emails/otp.blade.php
+        return $this->view('emails.checkout')  
                     ->subject('Your OTP Code')
                     ->with([
                         'otpCode' => $this->otpCode,
+                        'storeName' => $this-storeName,
                     ]);
     }
 }
