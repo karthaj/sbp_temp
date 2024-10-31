@@ -1,6 +1,5 @@
 <?php
-
-namespace App\Mail; // Change this to the appropriate namespace if in a module
+namespace Modules\Order\Emails; 
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
