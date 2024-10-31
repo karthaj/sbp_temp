@@ -25,6 +25,7 @@ use Modules\Product\Entities\CartCarrier;
 use Modules\Product\Entities\TaxOption;
 use Modules\Customer\Entities\Customer;
 use Modules\Customer\Entities\Address;
+use Modules\Customer\Entities\CheckoutOtp;
 use Shopbox\Transformers\CheckoutTransformer;
 use Shopbox\Transformers\Checkout\CustomerTransformer;
 use Shopbox\Transformers\Cart\CartTransformer;
@@ -48,7 +49,7 @@ class CheckoutController extends Controller
 
     public function __construct()
     {
-        $this->agent = new Agent();
+        $this->agent = new Agent(); 
     }
 
     public function index(Request $request)
@@ -163,11 +164,9 @@ class CheckoutController extends Controller
         $cart->checkout_session_data = json_encode($checkout_session);
         $cart->invoice_address()->associate($billing_address);
         $cart->delivery_address()->associate($shipping_address);
-        $cart->save();
-        var_dump("test");
+        $cart->save(); 
         // fire and forget
-        sendOTP($cart); 
-        var_dump("sendOTP");
+        sendOTP($cart);  
 
         return fractal()
                 ->item($cart)
@@ -178,8 +177,9 @@ class CheckoutController extends Controller
 
 
     protected function sendOTP(Cart $cart) {
-        // Generate OTP for this customer and cart
-        $otp = $this->otpService->createOtp($cart->customer->id, $cart->id);
+
+        $otp = new CheckoutOtp();
+ 
         // Send OTP to the customer's email
         Mail::to($cart->customer->customerEmail)->queue(new OtpEmail($otp->otp_code, $cart->customer->customerEmail));
     } 
