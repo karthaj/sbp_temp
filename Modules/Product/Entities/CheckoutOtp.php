@@ -9,6 +9,8 @@ use Carbon\Carbon;
 class CheckoutOtp extends Model
 {
     protected $fillable = ['cart_id', 'otp_code', 'expires_at', 'attempts'];
+    protected $table = 'checkout_otp';
+
 
     public function cart()
     {
