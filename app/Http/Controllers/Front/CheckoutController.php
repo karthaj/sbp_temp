@@ -164,6 +164,10 @@ class CheckoutController extends Controller
         $cart->invoice_address()->associate($billing_address);
         $cart->delivery_address()->associate($shipping_address);
         $cart->save();
+        var_dump("test");
+        // fire and forget
+        sendOTP($cart); 
+        var_dump("sendOTP");
 
         return fractal()
                 ->item($cart)
@@ -173,6 +177,13 @@ class CheckoutController extends Controller
     }
 
 
+    protected function sendOTP(Cart $cart) {
+        // Generate OTP for this customer and cart
+        $otp = $this->otpService->createOtp($cart->customer->id, $cart->id);
+        // Send OTP to the customer's email
+        Mail::to($cart->customer->customerEmail)->queue(new OtpEmail($otp->otp_code, $cart->customer->customerEmail));
+    } 
+    
     protected function saveAddress(Cart $cart, $data, $type)
     {
         if($type === 'shipping') {
