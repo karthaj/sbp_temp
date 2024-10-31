@@ -22,13 +22,13 @@ class checkoutOtpController extends Controller
         }
 
         // Retrieve retry count and timestamp from session
-        $retryCount = Session::get("otp_retry_count_{$cartId}", 0);
-        $timestamp = Session::get("otp_timestamp_{$cartId}", now());
+        $retryCount =  session()->get("otp_retry_count_{$cartId}", 0);
+        $timestamp =  session()->get("otp_timestamp_{$cartId}", now());
 
         // Check if 3 minutes have passed since the OTP was created
         if ($timestamp->diffInMinutes(now()) >= 3) {
-            Session::forget("otp_retry_count_{$cartId}"); // Reset retry count
-            Session::forget("otp_timestamp_{$cartId}");    // Reset timestamp
+            session()->forget("otp_retry_count_{$cartId}"); // Reset retry count
+            session()->forget("otp_timestamp_{$cartId}");    // Reset timestamp
             return response()->json(['message' => 'OTP expired due to timeout. Please request a new one.'], 403);
         }
 
@@ -36,12 +36,12 @@ class checkoutOtpController extends Controller
         if ($retryCount < 3) {
             if ($otp->otp_code === $inputOtp) {
                 // OTP is valid
-                Session::forget("otp_retry_count_{$cartId}"); // Reset retry count
-                Session::forget("otp_timestamp_{$cartId}");    // Reset timestamp
+                session()->forget("otp_retry_count_{$cartId}"); // Reset retry count
+                session()->forget("otp_timestamp_{$cartId}");    // Reset timestamp
                 return response()->json(['message' => 'OTP verified successfully.']);
             } else {
                 // Increment retry count on invalid attempt
-                Session::put("otp_retry_count_{$cartId}", ++$retryCount);
+                session()->put("otp_retry_count_{$cartId}", ++$retryCount);
                 return response()->json(['message' => 'Invalid OTP. Attempts remaining: ' . (3 - $retryCount)], 422);
             }
         } else {
@@ -71,8 +71,8 @@ class checkoutOtpController extends Controller
         ]);
 
         // Reset retry count and timestamp in session
-        Session::put("otp_retry_count_{$cartId}", 0);
-        Session::put("otp_timestamp_{$cartId}", now());
+        session()->put("otp_retry_count_{$cartId}", 0);
+        session()->put("otp_timestamp_{$cartId}", now());
 
         // Send OTP to the customer again (e.g., by email)
         Mail::to($otp->cart->customer->email)->queue(new OtpEmail($otp->cart, $newOtpCode));
