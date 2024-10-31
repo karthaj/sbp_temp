@@ -19,8 +19,7 @@ class CreateReferralsTable extends Migration
             $table->integer('store_id')->unsigned()->index();
             $table->timestamps();
         });
-    }
-
+    } 
     /**
      * Reverse the migrations.
      *
