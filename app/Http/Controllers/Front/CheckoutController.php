@@ -464,10 +464,10 @@ class CheckoutController extends Controller
     }
 
 
-    public function verifyOtp($cartId, $inputOtp)
+    public function verifyOtp($cart, $inputOtp)
     {
-        var_dump($cartId);
-        $otp = CheckoutOtp::where('cart_id', $cartId)->latest()->first();
+        var_dump($cart->id);
+        $otp = CheckoutOtp::where('cart_id', $cart->id)->latest()->first();
 
         if (!$otp) {
             return response()->json(['message' => 'OTP not found.'], 404);
@@ -479,13 +479,13 @@ class CheckoutController extends Controller
         }
 
         // Retrieve retry count and timestamp from session
-        $retryCount =  session()->get("otp_retry_count_{$cartId}", 0);
-        $timestamp =  session()->get("otp_timestamp_{$cartId}", now());
+        $retryCount =  session()->get("otp_retry_count_{$cart->id}", 0);
+        $timestamp =  session()->get("otp_timestamp_{$cart->id}", now());
 
         // Check if 3 minutes have passed since the OTP was created
         if ($timestamp->diffInMinutes(now()) >= 3) {
-            session()->forget("otp_retry_count_{$cartId}"); // Reset retry count
-            session()->forget("otp_timestamp_{$cartId}");    // Reset timestamp
+            session()->forget("otp_retry_count_{$cart->id}"); // Reset retry count
+            session()->forget("otp_timestamp_{$cart->id}");    // Reset timestamp
             return response()->json(['message' => 'OTP expired due to timeout. Please request a new one.'], 403);
         }
 
@@ -493,12 +493,12 @@ class CheckoutController extends Controller
         if ($retryCount < 3) {
             if ($otp->otp_code === $inputOtp) {
                 // OTP is valid
-                session()->forget("otp_retry_count_{$cartId}"); // Reset retry count
-                session()->forget("otp_timestamp_{$cartId}");    // Reset timestamp
+                session()->forget("otp_retry_count_{$cart->id}"); // Reset retry count
+                session()->forget("otp_timestamp_{$cart->id}");    // Reset timestamp
                 return response()->json(['message' => 'OTP verified successfully.']);
             } else {
                 // Increment retry count on invalid attempt
-                session()->put("otp_retry_count_{$cartId}", ++$retryCount);
+                session()->put("otp_retry_count_{$cart->id}", ++$retryCount);
                 return response()->json(['message' => 'Invalid OTP. Attempts remaining: ' . (3 - $retryCount)], 422);
             }
         } else {
@@ -511,7 +511,7 @@ class CheckoutController extends Controller
     public function resendOtp(Cart $cart, Request $request)
     {
         // Find the corresponding OTP record
-        $otpRecord = CheckoutOtp::where('cart_id', $checkout_id)->first();
+        $otpRecord = CheckoutOtp::where('cart_id', $cart->id)->first();
 
         // Check if the record exists
         if (!$otpRecord) {
