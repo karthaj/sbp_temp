@@ -32,7 +32,7 @@ class CheckoutOtpEmail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.checkout')  
+        return $this->view('otp.emails.checkout')  
                     ->subject('Your OTP Code')
                     ->with([
                         'otpCode' => $this->otpCode,
