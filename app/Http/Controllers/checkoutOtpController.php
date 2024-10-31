@@ -6,46 +6,77 @@ use Illuminate\Http\Request;
 
 class checkoutOtpController extends Controller
 {
+  
+    public function validateOtp($cartId, $inputOtp)
+    {
+        $otp = CheckoutOtp::where('cart_id', $cartId)->latest()->first();
 
-    public function verifyOtp(Cart $cart,Request $request)
-    { 
-        // Validate incoming request
-        $request->validate([  
-            'otp_code' => 'required|string',
-        ]);
- 
-        $otpCode = $request->input('otp_code');
-
-        // Fetch the OTP record associated with the cart ID
-        $otpRecord = Otp::where('cart_id', $cart->id)->first();
-
-        if (!$otpRecord) {
+        if (!$otp) {
             return response()->json(['message' => 'OTP not found.'], 404);
         }
 
-        // Check if the OTP is expired (you can set your own expiration logic)
-        if ($otpRecord->isExpired()) {
-            return response()->json(['message' => 'OTP has expired.'], 400);
+        // Check if OTP is expired
+        if ($otp->expires_at->isPast()) {
+            return response()->json(['message' => 'OTP expired. Please request a new one.'], 403);
         }
 
-        // Check if the OTP is valid
-        if ($otpRecord->otp_code === $otpCode) {
-            // Mark OTP as used or delete it 
+        // Retrieve retry count and timestamp from session
+        $retryCount = Session::get("otp_retry_count_{$cartId}", 0);
+        $timestamp = Session::get("otp_timestamp_{$cartId}", now());
 
-            return response()->json(['message' => 'OTP verified successfully.']);
-        } else {
-            // Increment the attempt counter
-            $otpRecord->increment('attempts');
+        // Check if 3 minutes have passed since the OTP was created
+        if ($timestamp->diffInMinutes(now()) >= 3) {
+            Session::forget("otp_retry_count_{$cartId}"); // Reset retry count
+            Session::forget("otp_timestamp_{$cartId}");    // Reset timestamp
+            return response()->json(['message' => 'OTP expired due to timeout. Please request a new one.'], 403);
+        }
 
-            // Check if attempts exceed 3
-            if ($otpRecord->attempts >= 3) {
-                // Optionally delete the OTP record after three attempts
-                $otpRecord->delete();
-                return response()->json(['message' => 'Maximum attempts reached. OTP is now invalid.'], 403);
+        // Validate OTP with retry limit
+        if ($retryCount < 3) {
+            if ($otp->otp_code === $inputOtp) {
+                // OTP is valid
+                Session::forget("otp_retry_count_{$cartId}"); // Reset retry count
+                Session::forget("otp_timestamp_{$cartId}");    // Reset timestamp
+                return response()->json(['message' => 'OTP verified successfully.']);
+            } else {
+                // Increment retry count on invalid attempt
+                Session::put("otp_retry_count_{$cartId}", ++$retryCount);
+                return response()->json(['message' => 'Invalid OTP. Attempts remaining: ' . (3 - $retryCount)], 422);
             }
-
-            return response()->json(['message' => 'Invalid OTP.'], 400);
+        } else {
+            // Max attempts reached within 3 minutes
+            return response()->json(['message' => 'Maximum OTP attempts exceeded.'], 403);
         }
-    } 
+    }
+    
+    public function resendOtp($cartId)
+    {
+        // Retrieve the latest OTP entry for the cart
+        $otp = CheckoutOtp::where('cart_id', $cartId)->latest()->first();
+
+        if (!$otp) {
+            return response()->json(['message' => 'OTP not found for this cart.'], 404);
+        }
+
+        // Check if OTP has expired or allow a forced resend
+        $newOtpCode = Str::random(5); // Generate a new OTP code
+        $newExpiresAt = now()->addMinutes(3); // Set a new expiration time of 3 minutes
+
+        // Update the OTP in the database
+        $otp->update([
+            'otp_code' => $newOtpCode,
+            'expires_at' => $newExpiresAt,
+            'attempts' => 0, // Reset the attempt count
+        ]);
+
+        // Reset retry count and timestamp in session
+        Session::put("otp_retry_count_{$cartId}", 0);
+        Session::put("otp_timestamp_{$cartId}", now());
+
+        // Send OTP to the customer again (e.g., by email)
+        Mail::to($otp->cart->customer->email)->queue(new OtpEmail($otp->cart, $newOtpCode));
+
+        return response()->json(['message' => 'OTP has been resent successfully.']);
+    }
  
 }

@@ -12,8 +12,8 @@ CREATE TABLE checkout_otp (
     attempts INT DEFAULT 0,
     created_at TIMESTAMP NULL DEFAULT NULL,
     updated_at TIMESTAMP NULL DEFAULT NULL,
-    CONSTRAINT fk_checkout_otps_customer_id FOREIGN KEY (customer_id) REFERENCES customers(id) ON DELETE CASCADE,
-    CONSTRAINT fk_checkout_otps_cart_id FOREIGN KEY (cart_id) REFERENCES carts(id) ON DELETE CASCADE
+    CONSTRAINT fk_checkout_otp_customer_id FOREIGN KEY (customer_id) REFERENCES customers(id) ON DELETE CASCADE,
+    CONSTRAINT fk_checkout_otp_cart_id FOREIGN KEY (cart_id) REFERENCES carts(id) ON DELETE CASCADE
 );
 
 ```

@@ -33,7 +33,11 @@ class CheckoutOtp extends Model
     public static function createOrUpdateOtp($cartId)
     {
         $otpCode = self::generateOtp();
-        $expiresAt = Carbon::now()->addMinutes(5); // Set expiration to 5 minutes
+        $expiresAt = Carbon::now()->addMinutes(3); // Set expiration to 3 minutes
+
+            // Set initial retry count and timestamp in the session
+        Session::put("otp_retry_count_{$cartId}", 0);
+        Session::put("otp_timestamp_{$cartId}", now());
 
         return self::updateOrCreate(
             ['cart_id' => $cartId],
