@@ -11,7 +11,7 @@ class CheckoutOtpEmail extends Mailable
 
     public $otpCode;
     public $customerEmail;
-
+    public $storeName;
     /**
      * Create a new message instance.
      *

@@ -182,7 +182,7 @@ class CheckoutController extends Controller
 
         $otp = new CheckoutOtp();
         $otp->generateOtp();
-        var_dump($otp);
+        
         // Send OTP to the customer's email
         Mail::to($cart->customer->customerEmail)->queue(new CheckoutOtpEmail($otp->otp_code, $cart->customer->customerEmail, $cart->store->store_name));
     } 
