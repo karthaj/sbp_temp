@@ -146,7 +146,11 @@ Route::group(['prefix' => 'checkout', 'as' => 'checkout.'], function () {
 		Route::put('{cart}/payment', 'Front\CheckoutController@payment');
 
 		// New Route for OTP Verification
-		Route::post('{cart}/verify-otp', 'Front\CheckoutController@verifyOtp')->name('verifyOtp');
+		Route::post('{cart}/verify-otp', 'Front\CheckoutController@validateOtp')->name('validateOtp');
+
+		Route::post('{cart}//resend-otp', 'Front\CheckoutController@resendOtp')->name('resendOtp');
+		 
+
  
 
 	});

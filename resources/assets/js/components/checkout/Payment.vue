@@ -84,7 +84,19 @@
             </ul>
         </div>
     </div>
-    
+    <div class="border p-3">
+        <h5 class="semi-bold">Enter OTP</h5>
+        <div class="form-group">
+            <input type="text" v-model="otp" @input="checkOtp" maxlength="5" class="form-control" placeholder="Enter OTP" />
+            <div v-if="otpError" class="text-danger">{{ otpError }}</div>
+        </div>
+        <div class="form-group">
+            <div class="checkbox check-info">
+                <input type="checkbox" id="agree_otp" v-model="agreeOtp" />
+                <label for="agree_otp">I agree to validate OTP</label>
+            </div>
+        </div>
+    </div>
     <div class="row mt-5 justify-content-between">
       <div class="col-md-4 col-12 order-2 order-md-1 text-center text-sm-left">
         <a href="/cart">Return to cart</a>
@@ -118,7 +130,11 @@
                 payment_method: '',
                 apply_store_credit: false,
                 ignore: false,
-                payments: []
+                payments: [],
+                otp: '',
+                otpError: '',
+                agreeOtp: false,
+                validatedOtp: false // New property to track OTP validation
             }
         },
         computed: {
@@ -187,6 +203,15 @@
                 }
             },
             store () {
+
+                // First, check if the OTP is validated
+                if (!this.validatedOtp) {
+                    this.otpError = 'Please validate your OTP before placing the order.';
+                    this.disabled = false; // Re-enable the button if OTP is not validated
+                    return; // Exit the function to prevent order placement
+                }
+
+
                 this.ignore = true;
                 this.disabled = true;
                 var form = {
@@ -206,7 +231,28 @@
                     }
                     this.disabled = false;
                 })
+            },
+            checkOtp() {
+            if (this.otp.length === 5) {
+                axios.post(`/checkout/${this.checkout_id}/verify-otp`, { otp: this.otp })
+                    .then(response => {
+                        if (response.data.success) {
+                            this.validatedOtp = true; // Set validatedOtp to true on success
+                            this.otpError = ''; // Clear error message
+                        } else {
+                            this.validatedOtp = false; // Set validatedOtp to false on failure
+                            this.otpError = 'Invalid OTP, please try again.';
+                        }
+                    })
+                    .catch(error => {
+                        this.validatedOtp = false; // Set validatedOtp to false on error
+                        this.otpError = 'Error validating OTP, please try again.';
+                    });
+            } else {
+                this.validatedOtp = false; // Reset validation state
+                this.otpError = '';
             }
+            },
         },
         updated() {
 

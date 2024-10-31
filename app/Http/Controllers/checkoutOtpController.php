@@ -49,35 +49,30 @@ class checkoutOtpController extends Controller
             return response()->json(['message' => 'Maximum OTP attempts exceeded.'], 403);
         }
     }
-    
-    public function resendOtp($cartId)
-    {
-        // Retrieve the latest OTP entry for the cart
-        $otp = CheckoutOtp::where('cart_id', $cartId)->latest()->first();
+     
 
-        if (!$otp) {
-            return response()->json(['message' => 'OTP not found for this cart.'], 404);
+    public function resendOtp(Cart $cart, Request $request)
+    {
+        // Find the corresponding OTP record
+        $otpRecord = CheckoutOtp::where('cart_id', $checkout_id)->first();
+
+        // Check if the record exists
+        if (!$otpRecord) {
+            return response()->json(['success' => false, 'message' => 'OTP record not found.'], 404);
         }
 
-        // Check if OTP has expired or allow a forced resend
-        $newOtpCode = Str::random(5); // Generate a new OTP code
-        $newExpiresAt = now()->addMinutes(3); // Set a new expiration time of 3 minutes
+        // Generate a new OTP
+        $newOtp = CheckoutOtp::generateOtp();
+        $otpRecord->otp_code = $newOtp;
+        $otpRecord->expires_at = now()->addMinutes(3); // Reset expiration
+        $otpRecord->attempts = 0; // Reset attempts
+        $otpRecord->save(); // Save the new OTP
 
-        // Update the OTP in the database
-        $otp->update([
-            'otp_code' => $newOtpCode,
-            'expires_at' => $newExpiresAt,
-            'attempts' => 0, // Reset the attempt count
-        ]);
+        // Send the OTP to the user's email
+        // You can replace the following code with your own email logic
+        Mail::to($request->user()->email)->send(new \App\Mail\OtpMail($newOtp)); // Create an OtpMail class to handle email
 
-        // Reset retry count and timestamp in session
-        session()->put("otp_retry_count_{$cartId}", 0);
-        session()->put("otp_timestamp_{$cartId}", now());
-
-        // Send OTP to the customer again (e.g., by email)
-        Mail::to($otp->cart->customer->email)->queue(new OtpEmail($otp->cart, $newOtpCode));
-
-        return response()->json(['message' => 'OTP has been resent successfully.']);
+        return response()->json(['success' => true, 'message' => 'OTP has been resent successfully.']);
     }
  
 }

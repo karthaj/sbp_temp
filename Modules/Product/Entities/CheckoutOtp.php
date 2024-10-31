@@ -3,6 +3,7 @@
 namespace Modules\Product\Entities;
 
 use Illuminate\Database\Eloquent\Model;
+use Modules\Product\Entities\Cart;
 use Carbon\Carbon;
 
 
