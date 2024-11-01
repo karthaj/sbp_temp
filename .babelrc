@@ -1,0 +1,5 @@
+{
+  "plugins": ["transform-object-rest-spread"]
+}
+
+git add .babelrc .env .env.swp .gitattributes .gitignore artisan composer-setup.php composer.json composer.lock composer.phar package-lock.json package.json phpunit.xml readme.md README.md server.php webpack.mix.js worker.log
