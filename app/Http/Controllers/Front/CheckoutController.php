@@ -166,10 +166,7 @@ class CheckoutController extends Controller
         $cart->invoice_address()->associate($billing_address);
         $cart->delivery_address()->associate($shipping_address);
         $cart->save(); 
-
-        // fire and forget
-        $this->sendOTP($cart);  
-
+ 
         return fractal()
                 ->item($cart)
                 ->transformWith(new CheckoutTransformer)
