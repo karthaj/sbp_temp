@@ -9,7 +9,7 @@ use Carbon\Carbon;
 
 class CheckoutOtp extends Model
 {
-    protected $fillable = ['cart_id', 'otp_code', 'expires_at', 'attempts'];
+    protected $fillable = ['cart_id', 'otp_code', 'expires_at', 'attempts', 'status'];
     protected $table = 'checkout_otp';
 
 
@@ -34,23 +34,21 @@ class CheckoutOtp extends Model
      * @param int $cartId
      * @return self
      */
-    public static function createOrUpdateOtp($cartId)
+    public static function createNew($cartId)
     {
+      
         $otpCode = self::generateOtp();
-        $expiresAt = Carbon::now()->addMinutes(3); // Set expiration to 3 minutes
+        $expiresAt = Carbon::now()->addMinutes(5); // Set expiration to 5 minutes
+ 
 
-            // Set initial retry count and timestamp in the session
-        session()->put("otp_retry_count_{$cartId}", 0);
-        session()->put("otp_timestamp_{$cartId}",  Carbon::now() );
-
-        return self::updateOrCreate(
-            ['cart_id' => $cartId],
-            [
-                'otp_code' => $otpCode,
-                'expires_at' => $expiresAt,
-                'attempts' => 0,
-            ]
-        );
+        // Create a new OTP record
+        return self::create([
+            'cart_id' => $cartId,
+            'otp_code' => $otpCode,
+            'status' => 0, // 0 : new | 1 : used | 2 : authenticated | 3 : expired
+            'expires_at' => $expiresAt,
+            'attempts' => 0,
+        ]);
     }
 
     /**
@@ -71,26 +69,16 @@ class CheckoutOtp extends Model
     public function incrementAttempts()
     {
         $this->increment('attempts');
-    }
-
-    /**
-     * Reset the OTP attempts counter.
-     *
-     * @return void
-     */
-    public function resetAttempts()
-    {
-        $this->update(['attempts' => 0]);
-    }
-
+    } 
+  
     /**
      * Check if the maximum number of attempts has been reached.
      *
      * @return bool
      */
-    public function hasReachedMaxAttempts($maxAttempts = 3)
-    {
-        return $this->attempts >= $maxAttempts;
+    public function hasReachedMaxAttempts($maxAttempts )
+    { 
+        return $this->attempts  > $maxAttempts ;
     }
 
     /**
